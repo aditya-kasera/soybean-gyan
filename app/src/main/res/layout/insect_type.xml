@@ -1,0 +1,42 @@
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardItem"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="9dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardBackgroundColor="?attr/colorSecondary"
+    android:foreground="?android:attr/selectableItemBackground"> <!-- Add foreground attribute for click effect -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ganesh1"
+            android:clickable="false"
+            android:focusable="false">
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Language"
+            android:textColor="?attr/colorPrimary"
+            android:textStyle="bold"
+            android:clickable="false"
+            android:focusable="false">
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

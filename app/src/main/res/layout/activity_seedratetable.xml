@@ -1,0 +1,55 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3,4,5"
+    android:layout_margin="0dp">
+    <TextView
+        android:text="Zone-Wise Seed Rate and Spacing"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="5dp">
+    </TextView>
+    <TableRow
+        android:background="?attr/colorPrimary"
+        android:padding="5dp">
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Zone"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_weight="1.2"
+            android:text="Seed Rate (kg/ha)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="5dp" />
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_weight="0.9"
+            android:text="Spacing (cm)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="5dp" />
+
+
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</TableLayout>

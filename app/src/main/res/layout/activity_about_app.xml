@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="?attr/colorSecondary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.AboutAppActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="?attr/colorPrimary"
+        android:text="@string/about_soybean_gyan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnSecondary"
+        android:text="
+\nSoybean Gyan contains the following aspects:" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSecondary"
+        android:text="Crop Management Extension Bulletin-13 Edition-2016
+\n\nInsect Management Extension Bulletin-13 Edition-2016
+\n\nWeed Management Extension Bulletin-13 Edition-2016
+\n\nDisease Management Extension Bulletin-13 Edition-2016
+\n\nFarm Machinery Extension Bulletin-13 Edition-2016
+\n\nFor more information, visit: Soybean Gyan
+\n\nSoy Food Recipe: Soy Food Recipe
+\n\nCopyright © ICAR-Indian Institute " />
+
+</LinearLayout>

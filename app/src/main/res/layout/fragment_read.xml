@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.read.activities.ReadFragment"
+    android:orientation="vertical">
+
+    <!-- Add a ConstraintLayout with ID 'main' to embed 'activity_hello.xml' -->
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/main"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1" />-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+
+    <ImageView
+        android:id="@+id/imgSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/img_soy_more"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    </RelativeLayout>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvQuickAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@id/ll2">
+
+
+        <LinearLayout
+            android:id="@+id/rlQuickAccessContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+
+                <TextView
+                    android:id="@+id/tvManagement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="IMPORTANT LINKS"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+<!--                android:background="@android:color/transparent"-->
+                <Button
+                    android:id="@+id/ibQuickAccess1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_baseline_playlist_add_check_24"
+                    android:scaleX="1"
+                    android:text="Practices"
+                    android:textAllCaps="true"
+                    android:textColor="@color/gray"
+                    app:layout_constraintBottom_toTopOf="@+id/ibQuickAccess3"
+                    app:layout_constraintEnd_toStartOf="@+id/ibQuickAccess2"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvManagement" />
+
+
+                <Button
+                    android:id="@+id/ibQuickAccess2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ibQuickAccess1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_baseline_question_answer_24"
+
+                    android:text="ADVISORY"
+                    android:textColor="@color/gray"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/cardView"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/ibQuickAccess1"
+                    app:layout_constraintTop_toBottomOf="@+id/tvManagement" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/gray"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/ibQuickAccess3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ibQuickAccess1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_baseline_link_24"
+                    android:scaleX="1"
+                    android:text="Inscect\nManagement"
+                    android:textAllCaps="true"
+                    android:textColor="@color/gray"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/ibQuickAccess4"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ibQuickAccess1"
+                    tools:ignore="TextViewEdits" />
+
+                <Button
+                    android:id="@+id/ibQuickAccess4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ibQuickAccess2"
+                    android:layout_toRightOf="@+id/ibQuickAccess3"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_baseline_link_24"
+                    android:scaleX="1"
+                    android:text="Pre\nDisposing"
+                    android:textColor="@color/gray"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/cardView"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/ibQuickAccess3"
+                    app:layout_constraintTop_toBottomOf="@id/ibQuickAccess2" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rlQuickAccessBelow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+
+                <TextView
+                    android:id="@+id/tvMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="MORE"
+                    android:textSize="15dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <Button
+                    android:id="@+id/ibQuickAccess6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/baseline_app_shortcut_24"
+                    android:scaleX="1"
+                    android:text="About App"
+                    android:textAllCaps="true"
+                    android:textColor="@color/gray"
+                    app:layout_constraintBottom_toTopOf="@+id/ibQuickAccess7"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvMore"
+                    app:layout_constraintVertical_bias="0.5" />
+
+                <Button
+                    android:id="@+id/ibQuickAccess7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ic_baseline_call_24"
+                    android:scaleX="1"
+                    android:text="Contact"
+                    android:textAllCaps="true"
+                    android:textColor="@color/gray"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="TextViewEdits" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/colorSecondary"
+            android:drawableLeft="@drawable/ic_baseline_share_24"
+            android:text="Share App"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".ui.read.ReadFragment"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cvCard1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        app:cardBackgroundColor="@color/white"-->
+<!--        app:cardCornerRadius="20sp"-->
+<!--        app:cardElevation="20dp" >-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/rlCard1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvNo1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:text="1"-->
+<!--                android:textColor="@color/mgreen"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvTitle1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_toEndOf="@+id/tvNo1"-->
+<!--                android:text="Crop Management"-->
+<!--                android:textColor="@color/hgreen"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgArrow"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_above="@+id/tvDesc1"-->
+<!--                android:layout_toRightOf="@id/tvTitle1"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvDesc1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/tvTitle1"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_toEndOf="@+id/tvNo1"-->
+<!--                android:ellipsize="end"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="A short description about this category that what is in this category." />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvProgress1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/tvDesc1"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:text="Progress" />-->
+
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar"-->
+<!--                style="?android:attr/progressBarStyleHorizontal"-->
+<!--                android:layout_below="@id/tvDesc1"-->
+<!--                android:layout_toRightOf="@id/tvProgress1"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="50dp"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </RelativeLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cvCard2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        app:cardBackgroundColor="@color/white"-->
+<!--        app:cardCornerRadius="20sp"-->
+<!--        app:cardElevation="20dp" >-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/rlCard2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvNo2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:text="2"-->
+<!--                android:textColor="@color/mgreen"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvTitle2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_toEndOf="@+id/tvNo2"-->
+<!--                android:text="Insect Management"-->
+<!--                android:textColor="@color/hgreen"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgArrow2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_above="@+id/tvDesc2"-->
+<!--                android:layout_toRightOf="@id/tvTitle2"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvDesc2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/tvTitle2"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_toEndOf="@+id/tvNo2"-->
+<!--                android:ellipsize="end"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="A short description about this category that what is in this category." />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvProgress2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/tvDesc2"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:text="Progress" />-->
+
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar2"-->
+<!--                style="?android:attr/progressBarStyleHorizontal"-->
+<!--                android:layout_below="@id/tvDesc2"-->
+<!--                android:layout_toRightOf="@id/tvProgress2"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="50dp"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cvCard3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        app:cardBackgroundColor="@color/white"-->
+<!--        app:cardCornerRadius="20sp"-->
+<!--        app:cardElevation="20dp" >-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/rlCard3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvNo3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:text="3"-->
+<!--                android:textColor="@color/mgreen"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvTitle3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:layout_toEndOf="@+id/tvNo3"-->
+<!--                android:text="Disease Management"-->
+<!--                android:textColor="@color/hgreen"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgArrow3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_above="@+id/tvDesc3"-->
+<!--                android:layout_toRightOf="@id/tvTitle3"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:src="@drawable/ic_baseline_arrow_forward_ios_24" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvDesc3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/tvTitle3"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_toEndOf="@+id/tvNo3"-->
+<!--                android:ellipsize="end"-->
+<!--                android:singleLine="true"-->
+<!--                android:text="A short description about this category that what is in this category." />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvProgress3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/tvDesc3"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:text="Progress" />-->
+
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBar3"-->
+<!--                style="?android:attr/progressBarStyleHorizontal"-->
+<!--                android:layout_below="@id/tvDesc3"-->
+<!--                android:layout_toRightOf="@id/tvProgress3"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="50dp"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    <TextView-->
+<!--        android:id="@+id/text_read"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--</LinearLayout>-->

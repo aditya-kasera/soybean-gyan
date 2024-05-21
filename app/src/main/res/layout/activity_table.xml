@@ -1,0 +1,72 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3,4,5"
+    android:layout_margin="0dp">
+    <TableRow
+        android:background="?attr/colorPrimary"
+        android:padding="5dp">
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="No:"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_weight="0.9"
+            android:text="Types of Weedicide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp" />
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_weight="0.8"
+            android:text="Chemical Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp" />
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_weight="1"
+            android:text="Commercial Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp">
+
+        </TextView>
+
+
+        <TextView
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:text="Quantity"
+            android:padding="0dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</TableLayout>

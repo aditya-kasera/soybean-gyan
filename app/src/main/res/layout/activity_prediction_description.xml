@@ -1,0 +1,79 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lgreen"
+    tools:context=".ui.prediction.PredictionDescriptionActivity">
+
+    <TextView
+        android:id="@+id/tvDiseasePredicton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="Scan leaf to diagnose"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvSoybeanPlant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDiseasePredicton"
+        android:layout_marginStart="42dp"
+        android:text="Soybean Plant"
+        android:textSize="20sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvModelDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSoybeanPlant"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Scan Soybean Leaf, to identify potential disease the Soybean plant is suffering.\n\nGet cure by ICAR's authentic and highly accurate Machine Learning Model."
+            android:textColor="@color/hgreen"
+            android:textSize="25sp" />
+
+
+
+        <!--By capturing images of soybean leaves, the ML model deployed in the ICAR's server analyzes patterns to provide early detection of potential diseases.
+-->
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvTapToScan"
+        android:layout_centerInParent="true"        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_baseline_camera_alt_24" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/tvTapToScan"
+        android:text="TAP CAMERA TO SCAN" />
+</RelativeLayout>
+

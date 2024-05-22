@@ -37,11 +37,11 @@ class CropManagementActivity : AppCompatActivity() {
     private fun prepareData() {
         val childTitle = intent.getStringExtra("childTitle")
         when(childTitle ){
-            "Soil Requirement"-> {
+            getString(R.string.soil_requirementz)-> {
                 content.add(CropManagementData(getString(R.string.SoilRequirement)))
                 adapter.notifyDataSetChanged()
             }
-            "Tillage"->{
+            getString(R.string.tillagez)->{
                 content.add(CropManagementData(getString(R.string.Tillage1)))
                 content.add(CropManagementData(getString(R.string.Tillage2)))
                 content.add(CropManagementData(getString(R.string.Tillage3)))
@@ -53,7 +53,7 @@ class CropManagementActivity : AppCompatActivity() {
                 content.add(CropManagementData(getString(R.string.Tillage9)))
                 adapter.notifyDataSetChanged()
             }
-            "Selection of Varieties"->{
+            getString(R.string.selection_of_varietiesz)->{
                 content.add(CropManagementData(getString(R.string.selection1)))
                 content.add(CropManagementData(getString(R.string.selection2)))
                 content.add(CropManagementData(getString(R.string.selection3)))
@@ -62,7 +62,7 @@ class CropManagementActivity : AppCompatActivity() {
                 content.add(CropManagementData(getString(R.string.selection6)))
                 adapter.notifyDataSetChanged()
             }
-            "Seed Treatment & Inoculation"->{
+            getString(R.string.seed_treatment_inoculationz)->{
                 content.add(CropManagementData(getString(R.string.inoculation1)))
                 content.add(CropManagementData(getString(R.string.inoculation2)))
                 content.add(CropManagementData(getString(R.string.inoculation3)))
@@ -72,7 +72,7 @@ class CropManagementActivity : AppCompatActivity() {
                 content.add(CropManagementData(getString(R.string.inoculation7)))
             }
 
-            "Sowing Time, Spacing & Seed Rate"->{
+            getString(R.string.sowing_time_spacing_seed_ratez)->{
                 content.add(CropManagementData(getString(R.string.sowing1)))
                 content.add(CropManagementData(getString(R.string.sowing2)))
                 content.add(CropManagementData(getString(R.string.sowing3)))
@@ -80,21 +80,21 @@ class CropManagementActivity : AppCompatActivity() {
                 content.add(CropManagementData(getString(R.string.sowing5)))
                 content.add(CropManagementData(getString(R.string.sowing6)))
             }
-            "Manures & Fertilizers"->{
+            getString(R.string.manures_fertilizersz)->{
                 content.add(CropManagementData(getString(R.string.fertilizer1)))
                 content.add(CropManagementData(getString(R.string.fertilizer2)))
                 content.add(CropManagementData(getString(R.string.fertilizer3)))
             }
-            "Intercropping in Soybean"->{
+            getString(R.string.intercropping_in_soybeanz)->{
                 content.add(CropManagementData(getString(R.string.intercropping1)))
                 content.add(CropManagementData(getString(R.string.intercropping2)))
                 content.add(CropManagementData(getString(R.string.intercropping3)))
             }
-            "Water Management"->{
+            getString(R.string.water_managementz)->{
                 content.add(CropManagementData(getString(R.string.water1)))
                 content.add(CropManagementData(getString(R.string.water2)))
             }
-            "Harvesting & Threshing"->{
+            getString(R.string.harvesting_threshingz)->{
                 content.add(CropManagementData(getString(R.string.harvesting1)))
                 content.add(CropManagementData(getString(R.string.harvesting2)))
                 content.add(CropManagementData(getString(R.string.harvesting3)))

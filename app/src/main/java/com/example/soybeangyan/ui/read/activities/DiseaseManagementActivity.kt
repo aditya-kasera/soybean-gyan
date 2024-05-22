@@ -42,37 +42,37 @@ class DiseaseManagementActivity : AppCompatActivity(),
         val childTitle = intent.getStringExtra("childTitle")
         content = ArrayList()
         when (childTitle) {
-            "Bacterial Diseases" -> {
+            getString(R.string.bacterial_diseasesz) -> {
 
-                content.add(DiseaseManagementData("Bacterial Blight", R.drawable.bac_bacterial_blight))
-                content.add(DiseaseManagementData("Bacterial Pustule", R.drawable.bac_bacterial_pustule))
+                content.add(DiseaseManagementData(getString(R.string.bacterial_blight), R.drawable.bac_bacterial_blight))
+                content.add(DiseaseManagementData(getString(R.string.bacterial_pustule), R.drawable.bac_bacterial_pustule))
             }
 
-            "Fungal Diseases" -> {
-                content.add(DiseaseManagementData("Charcol Rot", R.drawable.soycharcoal_rot))
-                content.add(DiseaseManagementData("Collar Rot / Sclerotial Blight", R.drawable.soycollar_rot))
-                content.add(DiseaseManagementData("Sclerotinia Stem Rot", R.drawable.stemflypupa3))
-                content.add(DiseaseManagementData("Anthracnose & Pod Blight", R.drawable.podblight))
-                content.add(DiseaseManagementData("Rust", R.drawable.soyrust))
-                content.add(DiseaseManagementData("Cercospora Blight", R.drawable.cercospora_leaf_blight))
-                content.add(DiseaseManagementData("Frogeye Leaf Spot", R.drawable.frogeye))
-                content.add(DiseaseManagementData("Pod & Stem Blight & Phomopsis Seed Decay", R.drawable.seeddecay))
-                content.add(DiseaseManagementData("Fusarium Collar & Pod Rot", R.drawable.fusarium_collar_and_pod_rot))
-                content.add(DiseaseManagementData("Myrothecium Leaf Spot", R.drawable.myrothecium_leaf_spot))
-                content.add(DiseaseManagementData("Root Rot, Stem Rot & Foliage/Aerial Blight", R.drawable.root_rot_or_stem_rot_and_foliage))
-                content.add(DiseaseManagementData("Brown Spot", R.drawable.brown))
-                content.add(DiseaseManagementData("Phyllosticta Leaf Spot", R.drawable.phyllosticta_leaf_spot))
-                content.add(DiseaseManagementData("Choanephora Leaf Blight", R.drawable.choanephora))
-                content.add(DiseaseManagementData("Aristastoma Leaf", R.drawable.aristastoma))
-                content.add(DiseaseManagementData("Powdery Mildew", R.drawable.powdery_mildew))
-                content.add(DiseaseManagementData("Target Leaf Spot", R.drawable.target_leaf_spot))
+            getString(R.string.fungal_diseasesz) -> {
+                content.add(DiseaseManagementData(getString(R.string.charcol_rot), R.drawable.soycharcoal_rot))
+                content.add(DiseaseManagementData(getString(R.string.collar_rot_sclerotial_blight), R.drawable.soycollar_rot))
+                content.add(DiseaseManagementData(getString(R.string.sclerotinia_stem_rot), R.drawable.stemflypupa3))
+                content.add(DiseaseManagementData(getString(R.string.anthracnose_pod_blight), R.drawable.podblight))
+                content.add(DiseaseManagementData(getString(R.string.rust), R.drawable.soyrust))
+                content.add(DiseaseManagementData(getString(R.string.cercospora_blight), R.drawable.cercospora_leaf_blight))
+                content.add(DiseaseManagementData(getString(R.string.frogeye_leaf_spot), R.drawable.frogeye))
+                content.add(DiseaseManagementData(getString(R.string.pod_stem_blight_phomopsis_seed_decay), R.drawable.seeddecay))
+                content.add(DiseaseManagementData(getString(R.string.fusarium_collar_pod_rot), R.drawable.fusarium_collar_and_pod_rot))
+                content.add(DiseaseManagementData(getString(R.string.myrothecium_leaf_spot), R.drawable.myrothecium_leaf_spot))
+                content.add(DiseaseManagementData(getString(R.string.root_rot_stem_rot_foliage_aerial_blight), R.drawable.root_rot_or_stem_rot_and_foliage))
+                content.add(DiseaseManagementData(getString(R.string.brown_spot), R.drawable.brown))
+                content.add(DiseaseManagementData(getString(R.string.phyllosticta_leaf_spot), R.drawable.phyllosticta_leaf_spot))
+                content.add(DiseaseManagementData(getString(R.string.choanephora_leaf_blight), R.drawable.choanephora))
+                content.add(DiseaseManagementData(getString(R.string.aristastoma_leaf), R.drawable.aristastoma))
+                content.add(DiseaseManagementData(getString(R.string.powdery_mildew), R.drawable.powdery_mildew))
+                content.add(DiseaseManagementData(getString(R.string.target_leaf_spot), R.drawable.target_leaf_spot))
             }
 
-            "Viral Diseases" -> {
-                content.add(DiseaseManagementData("SoyBean Mosaic", R.drawable.soybean_mosaic))
-                content.add(DiseaseManagementData("Yellow Mosaic", R.drawable.yellowmosaic))
-                content.add(DiseaseManagementData("Indian Bud Blight", R.drawable.indianbudblight))
-                content.add(DiseaseManagementData("Phyllody Associated No Podding Syndrome", R.drawable.phyllody))
+            getString(R.string.viral_diseasesz) -> {
+                content.add(DiseaseManagementData(getString(R.string.soybean_mosaic), R.drawable.soybean_mosaic))
+                content.add(DiseaseManagementData(getString(R.string.yellow_mosaic), R.drawable.yellowmosaic))
+                content.add(DiseaseManagementData(getString(R.string.indian_bud_blight), R.drawable.indianbudblight))
+                content.add(DiseaseManagementData(getString(R.string.phyllody_associated_no_podding_syndrome), R.drawable.phyllody))
             }
         }
     }
@@ -92,140 +92,140 @@ class DiseaseManagementActivity : AppCompatActivity(),
         val title = item.title
         val image = item.image
         when (item.title) {
-            "Bacterial Blight" -> {
+            getString(R.string.bacterial_blightT) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Bacterial Pustule"->{
+            getString(R.string.bacterial_pustulez)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Charcol Rot" -> {
+            getString(R.string.charcol_rotz) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Collar Rot / Sclerotial Blight" ->{
+            getString(R.string.collar_rot_sclerotial_blightz) ->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Sclerotinia Stem Rot" -> {
+            getString(R.string.sclerotinia_stem_rotz) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Anthracnose & Pod Blight" -> {
+            getString(R.string.anthracnose_pod_blightz) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Rust" -> {
+            getString(R.string.rustz) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Cercospora Blight"->{
+            getString(R.string.cercospora_blightz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
 
-            "Frogeye Leaf Spot"->{
+            getString(R.string.frogeye_leaf_spotz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Pod & Stem Blight & Phomopsis Seed Decay"->{
+            getString(R.string.pod_stem_blight_phomopsis_seed_decayz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Fusarium Collar & Pod Rot" -> {
+            getString(R.string.fusarium_collar_pod_rotz) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Myrothecium Leaf Spot"->{
+            getString(R.string.myrothecium_leaf_spotz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Root Rot, Stem Rot & Foliage/Aerial Blight" ->{
+            getString(R.string.root_rot_stem_rot_foliage_aerial_blightz) ->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Brown Spot" ->{
+            getString(R.string.brown_spotz) ->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Phyllosticta Leaf Spot" -> {
+            getString(R.string.phyllosticta_leaf_spotz) -> {
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Choanephora Leaf Blight"->{
+            getString(R.string.choanephora_leaf_blightz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Aristastoma Leaf"->{
+            getString(R.string.aristastoma_leafz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Powdery Mildew"->{
+            getString(R.string.powdery_mildewz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Target Leaf Spot"->{
+            getString(R.string.target_leaf_spotz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "SoyBean Mosaic"->{
+            getString(R.string.soybean_mosaicz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Yellow Mosaic"->{
+            getString(R.string.yellow_mosaicz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Indian Bud Blight"->{
+            getString(R.string.indian_bud_blightz)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)
                 startActivity(intent)
             }
-            "Phyllody Associated No Podding Syndrome"->{
+            getString(R.string.phyllody_associated_no_podding_syndromez)->{
                 val intent = Intent(this, DiseaseManagementActivityForFragments::class.java)
                 intent.putExtra("title", title)
                 intent.putExtra("image", image)

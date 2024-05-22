@@ -19,19 +19,19 @@ class PDFViewerActivity : AppCompatActivity() {
         val pdfView: PDFView = findViewById(R.id.pdfView)
 
         when (title) {
-            "District Wise Varieties of CZ" -> {
+            getString(R.string.district_wise_varieties_of_czzz) -> {
                 pdfView.fromAsset("district_wise_varieties_of_cz.pdf").load()
             }
-            "District Wise Varieties of SZ"->{
+            getString(R.string.district_wise_varieties_of_szzz)->{
                 pdfView.fromAsset("district_wise_varieties_of_sz.pdf").load()
             }
-            "District Wise Varieties of Soybean"->{
+            getString(R.string.district_wise_varieties_of_soybeanzz)->{
                 pdfView.fromAsset("state_wise_varieties_of_soybean.pdf").load()
             }
-            "Varieties in the Seed Chain"->{
+            getString(R.string.varieties_in_the_seed_chainzz)->{
                 pdfView.fromAsset("varieties_in_the_seed_chain.pdf").load()
             }
-            "Varieties With Special Character"->{
+            getString(R.string.varieties_with_special_characterzz)->{
                 pdfView.fromAsset("varieties_with_special_character.pdf").load()
             }
         }

@@ -16,7 +16,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="10dp"
-        android:text="Scan leaf to diagnose"
+        android:text="@string/scan_leaf_to_diagnose"
         android:textColor="@color/black"
         android:textSize="40sp" />
 
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDiseasePredicton"
         android:layout_marginStart="42dp"
-        android:text="Soybean Plant"
+        android:text="@string/soybean_plant"
         android:textSize="20sp" />
 
     <androidx.cardview.widget.CardView
@@ -46,7 +46,7 @@
             android:layout_height="match_parent"
             android:layout_margin="30dp"
             android:fontFamily="sans-serif-light"
-            android:text="Scan Soybean Leaf, to identify potential disease the Soybean plant is suffering.\n\nGet cure by ICAR's authentic and highly accurate Machine Learning Model."
+            android:text="@string/scan_soybean_leaf_to_identify_potential_disease_the_soybean_plant_is_suffering_n_nget_cure_by_icar_s_authentic_and_highly_accurate_machine_learning_model"
             android:textColor="@color/hgreen"
             android:textSize="25sp" />
 
@@ -74,6 +74,6 @@
         android:layout_marginTop="25dp"
         android:layout_marginBottom="40dp"
         android:id="@+id/tvTapToScan"
-        android:text="TAP CAMERA TO SCAN" />
+        android:text="@string/tap_camera_to_scan" />
 </RelativeLayout>
 

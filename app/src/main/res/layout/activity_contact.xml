@@ -22,7 +22,7 @@
             android:padding="20dp"
             android:textSize="25sp"
             android:textColor="?attr/colorPrimary"
-            android:text="\nICAR-Indian Institute of Soybean Research" />
+            android:text="@string/icar_indian_institute_of_soybean_research" />
 
         <TextView
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
             android:paddingHorizontal="20dp"
             android:textSize="20sp"
             android:textColor="?attr/colorPrimary"
-            android:text="Khandwa Road, Indore (M.P.) - 452001" />
+            android:text="@string/khandwa_road_indore_m_p_452001" />
 
 
         <TextView
@@ -39,21 +39,7 @@
             android:padding="20dp"
             android:textSize="20sp"
             android:textColor="?attr/colorOnSecondary"
-            android:text="Phone:
-
-\n\nDr. V.S. Bhatia, Director - 0731-2476188
-\n\nDr. A.N. Sharma (Insect Management) - 9425958694
-\n\nDr. Sunil Dutt Billore (Weed Management) - 9977763727
-\n\nDr. B.U. Dupare (Crop Management) - 9425964016
-\n\nDr. D.V. Singh (Farm Machinery) - 0731-2437922
-\n\nDr. M.K. Kuchlan (Seed and Variety) - 9340650457
-\n\nDr. Sanjeev Kumar (Disease Management) - 9407072727
-\n\nDr. Laxman Singh Rajput (Disease Management) - 7065157572
-\n\nFor App Related Information Contact:
-\n\nDr. Savita Kolhe, Principal Scientist - 0731-2437911
-\n\n\nEmail: soybean.director@icar.gov.in
-\n            srdirector@gmail.com
-\n\n\nFax: 0731-2470520" />
+            android:text="@string/phone_dr_v_s_bhatia_director_0731_2476188_dr_a_n_sharma_insect_management_9425958694_dr_sunil_dutt_billore_weed_management_9977763727_dr_b_u_dupare_crop_management_9425964016_dr_d_v_singh_farm_machinery_0731_2437922_dr_m_k_kuchlan_seed_and_variety_9340650457_dr_sanjeev_kumar_disease_management_9407072727_dr_laxman_singh_rajput_disease_management_7065157572_for_app_related_information_contact_dr_savita_kolhe_principal_scientist_0731_2437911_email_soybean_director_icar_gov_in_srdirector_gmail_com_fax_0731_2470520" />
 
 
         </LinearLayout>

@@ -11,7 +11,7 @@
     <item
         android:id="@+id/navigation_saved"
         android:icon="@drawable/icons8leaf48"
-        android:title="Detection" />
+        android:title="@string/detection" />
 
     <item
         android:id="@+id/navigation_settings"
@@ -21,7 +21,7 @@
     <item
         android:id="@+id/navigation_read"
         android:icon="@drawable/ic_baseline_dashboard_customize_24"
-        android:title="More" />
+        android:title="@string/morex" />
 
 
 </menu>

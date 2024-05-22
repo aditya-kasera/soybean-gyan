@@ -24,7 +24,7 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="10dp"
-            android:text="Scan leaf to diagnose"
+            android:text="@string/scan_leaf_to_diagnosex"
             android:textColor="?attr/colorOnSecondary"
             android:textSize="50sp" />
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/tvDiseasePredicton"
             android:layout_marginStart="42dp"
-            android:text="Soybean Plant"
+            android:text="@string/soybean_plantx"
             android:textSize="20sp" />
 
         <androidx.cardview.widget.CardView
@@ -53,7 +53,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="30dp"
                 android:fontFamily="sans-serif-light"
-                android:text="Scan Soybean Leaf, to identify potential disease the Soybean plant is suffering.\n\nGet cure by our accurate Machine Learning Model."
+                android:text="@string/scan_soybean_leaf_to_identify_potential_disease_the_soybean_plant_is_suffering_n_nget_cure_by_our_accurate_machine_learning_modelx"
                 android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
 
@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20px"
                     android:layout_toEndOf="@+id/imgSmart"
-                    android:text="Leaf Disease Prediction  "
+                    android:text="@string/leaf_disease_predictionx"
                     android:textColor="?attr/colorPrimaryVariant"
                     android:textSize="20dp"
                     android:textStyle="bold"

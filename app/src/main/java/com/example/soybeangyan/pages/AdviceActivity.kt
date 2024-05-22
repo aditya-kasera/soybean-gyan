@@ -36,7 +36,7 @@ class AdviceActivity : AppCompatActivity() {
         window.statusBarColor = typedValue.data
 
         // Set ActionBar title
-        supportActionBar?.title = "Advice for Soybean Farmers"
+        supportActionBar?.title = getString(R.string.advice_for_soybean_farmers)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 //        supportActionBar?.hide()
         // Find the WebView in the layout

@@ -37,15 +37,15 @@ class WeedManagementActivity : AppCompatActivity() {
     private fun prepareData() {
         val childTitle = intent.getStringExtra("childTitle")
         when (childTitle) {
-            "Losses Due to Weed" -> {
+            getString(R.string.losses_due_to_weedx) -> {
                 content.add(WeedManagementData(getString(R.string.loses)))
                 adapter.notifyDataSetChanged()
             }
-            "Weed Management Practices"->{
+            getString(R.string.weed_management_practicesx)->{
                 content.add(WeedManagementData(getString(R.string.practise1)))
                 content.add(WeedManagementData(getString(R.string.practise2)))
             }
-            "General Precautions" ->{
+            getString(R.string.general_precautionsx) ->{
                 content.add(WeedManagementData(getString(R.string.precaution1)))
                 content.add(WeedManagementData(getString(R.string.precaution2)))
                 content.add(WeedManagementData(getString(R.string.precaution3)))

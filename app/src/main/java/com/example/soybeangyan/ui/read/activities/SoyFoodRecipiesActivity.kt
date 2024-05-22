@@ -23,40 +23,40 @@ class SoyFoodRecipiesActivity : AppCompatActivity() {
         recipeImage.setImageResource(image)
 
         when (title){
-            "Soy Nuts" ->{
+            getString(R.string.soy_nutsx) ->{
                 recipeDetail.text = getString(R.string.soynuts)
             }
-            "Soy Milk" ->{
+            getString(R.string.soy_milkx) ->{
                 recipeDetail.text = getString(R.string.soymilk)
             }
-            "Soy Curd"->{
+            getString(R.string.soy_curdx)->{
                 recipeDetail.text = getString(R.string.soycurd)
             }
-            "Tofu"->{
-                recipeDetail.text = getString(R.string.tofu)
+            getString(R.string.tofux)->{
+                recipeDetail.text = getString(R.string.tofu1)
             }
-            "Soy Flour"->{
+            getString(R.string.soy_flourx)->{
                 recipeDetail.text = getString(R.string.soyflour)
             }
-            "Soy Chakli"->{
+            getString(R.string.soy_chaklix)->{
                 recipeDetail.text = getString(R.string.soychakli)
             }
-            "Soy Mathari"->{
+            getString(R.string.soy_matharix)->{
                 recipeDetail.text = getString(R.string.soymathari)
             }
-            "Soy Laddo"->{
+            getString(R.string.soy_laddox)->{
                 recipeDetail.text = getString(R.string.soyladdo)
             }
-            "Soy Nankhatai"->{
+            getString(R.string.soy_nankhataix)->{
                 recipeDetail.text = getString(R.string.soynankhattai)
             }
-            "Soy Upma"->{
+            getString(R.string.soy_upmax)->{
                 recipeDetail.text = getString(R.string.soyupma)
             }
-            "Soy Halwa"->{
+            getString(R.string.soy_halwax)->{
                 recipeDetail.text = getString(R.string.soyhalwa)
             }
-            "Soy Pakora"->{
+            getString(R.string.soy_pakorax)->{
                 recipeDetail.text = getString(R.string.soypakora)
             }
         }

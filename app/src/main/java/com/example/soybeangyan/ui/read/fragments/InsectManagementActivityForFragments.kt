@@ -39,9 +39,9 @@ class InsectManagementActivityForFragments : AppCompatActivity() {
 
         TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
             tab.text = when (position) {
-                0 -> "IDENTIFICATION"
-                1 -> "DAMAGE"
-                2 -> "MANAGEMENT"
+                0 -> getString(R.string.identification)
+                1 -> getString(R.string.damage)
+                2 -> getString(R.string.managementx)
                 else -> null
             }
         }.attach()
@@ -79,67 +79,67 @@ class InsectManagementActivityForFragments : AppCompatActivity() {
     }
     private fun updateDetails(title: String?) {
         val fragments = when (title) {
-            "Blue Beetle" -> listOf(
+            getString(R.string.blue_beetlex) -> listOf(
                 FirstFragment.newInstance( getString(R.string.BlueBeetle1)),
                 SecondFragment.newInstance(getString(R.string.BlueBeetle2)),
                 ThirdFragment.newInstance(getString(R.string.BlueBeetle3))
             )
-            "Bihar Hairy Caterpillar" -> listOf(
+            getString(R.string.bihar_hairy_caterpillarx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.HairyCaterpillar1)),
                 SecondFragment.newInstance(getString(R.string.HairyCaterpillar2)),
                 ThirdFragment.newInstance(getString(R.string.HairyCaterpillar3))
             )
-            "Girdle Beetle" -> listOf(
+            getString(R.string.girdle_beetlex) -> listOf(
                 FirstFragment.newInstance(getString(R.string.GirdleBeetle1)),
                 SecondFragment.newInstance(getString(R.string.GirdleBeetle2)),
                 ThirdFragment.newInstance(getString(R.string.GirdleBeetle3))
             )
-            "Gram Pod Borer" -> listOf(
+            getString(R.string.gram_pod_borerx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.PodBorer1)),
                 SecondFragment.newInstance(getString(R.string.PodBorer2)),
                 ThirdFragment.newInstance(getString(R.string.PodBorer3))
             )
-            "Green Semiloopers" -> listOf(
+            getString(R.string.green_semiloopersx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.Semiloopers1)),
                 SecondFragment.newInstance(getString(R.string.Semiloopers2)),
                 ThirdFragment.newInstance(getString(R.string.Semiloopers3))
             )
-            "Green Stink Bug" -> listOf(
+            getString(R.string.green_stink_bugx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.StinkBug1)),
                 SecondFragment.newInstance(getString(R.string.StinkBug2)),
                 ThirdFragment.newInstance(getString(R.string.StinkBug3))
             )
-            "Leaf Folder" -> listOf(
+            getString(R.string.leaf_folderx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.LeafFolder1)),
                 SecondFragment.newInstance(getString(R.string.LeafFolder2)),
                 ThirdFragment.newInstance(getString(R.string.LeafFolder3))
             )
-            "Leaf Miner" -> listOf(
+            getString(R.string.leaf_minerx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.LeafMiner1)),
                 SecondFragment.newInstance(getString(R.string.LeafMiner2)),
                 ThirdFragment.newInstance(getString(R.string.LeafMiner3))
             )
-            "Stem Fly" -> listOf(
+            getString(R.string.stem_flyx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.StemFly1)),
                 SecondFragment.newInstance(getString(R.string.StemFly2)),
                 ThirdFragment.newInstance(getString(R.string.StemFly3))
             )
-            "Tobacco Caterpillar" -> listOf(
+            getString(R.string.tobacco_caterpillarx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.TobaccoCaterpillar1)),
                 SecondFragment.newInstance(getString(R.string.TobaccoCaterpillar2)),
                 ThirdFragment.newInstance(getString(R.string.TobaccoCaterpillar3))
             )
-            "White Fly" -> listOf(
+            getString(R.string.white_flyx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.WhiteFly1)),
                 SecondFragment.newInstance(getString(R.string.WhiteFly2)),
                 ThirdFragment.newInstance(getString(R.string.WhiteFly3))
             )
-            "White Grub" -> listOf(
+            getString(R.string.white_grubx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.WhiteGrub1)),
                 SecondFragment.newInstance(getString(R.string.WhiteGrub2)),
                 ThirdFragment.newInstance(getString(R.string.WhiteGrub3))
             )
-            "Brown Stripped Semilooper" -> listOf(
+            getString(R.string.brown_stripped_semilooperx) -> listOf(
                 FirstFragment.newInstance(getString(R.string.StrippedSemilooper1)),
                 SecondFragment.newInstance(getString(R.string.StrippedSemilooper2)),
                 ThirdFragment.newInstance(getString(R.string.StrippedSemilooper3))

@@ -94,11 +94,22 @@ class SettingsFragment : Fragment() {
             }
         }
 
+        binding.btnEng.setOnClickListener {
+            setLocale("en")
+        }
 
+        binding.btnHin.setOnClickListener {
+            setLocale("hi")
+        }
 //        Opening Important links
 
 
         return root
+    }
+
+    private fun setLocale(languageCode: String) {
+        LocaleHelper.setLocale(requireContext(), languageCode)
+        requireActivity().recreate() // Recreate activity to apply the new locale
     }
 
     private fun setTheme(mode: Int) {
@@ -122,9 +133,9 @@ class SettingsFragment : Fragment() {
         // Apply the selected font size to the app's text views
         @Suppress("DEPRECATION") val scaledDensity = resources.displayMetrics.scaledDensity
         val textSize = when (fontSize) {
-            "Small" -> scaledDensity * 8 // adjust the values as needed 12
-            "Medium" -> scaledDensity * 12
-            "Large" -> scaledDensity * 16  // default to medium size 20
+            getString(R.string.small) -> scaledDensity * 8 // adjust the values as needed 12
+            getString(R.string.medium) -> scaledDensity * 12
+            getString(R.string.large) -> scaledDensity * 16  // default to medium size 20
             else -> scaledDensity * 12 // default to medium size
         }
 

@@ -36,12 +36,12 @@ class PDFActivity : AppCompatActivity() {
         val childTitle = intent.getStringExtra("childTitle")
         content = ArrayList()
         when(childTitle){
-            "Suggestions (Selection of Varieties)"->{
-                content.add(PDFData("District Wise Varieties of CZ"))
-                content.add(PDFData("District Wise Varieties of SZ"))
-                content.add(PDFData("District Wise Varieties of Soybean"))
-                content.add(PDFData("Varieties With Special Character"))
-                content.add(PDFData("Varieties in the Seed Chain"))
+            getString(R.string.suggestions_selection_of_varieties)->{
+                content.add(PDFData(getString(R.string.district_wise_varieties_of_cz)))
+                content.add(PDFData(getString(R.string.district_wise_varieties_of_sz)))
+                content.add(PDFData(getString(R.string.district_wise_varieties_of_soybean)))
+                content.add(PDFData(getString(R.string.varieties_with_special_character)))
+                content.add(PDFData(getString(R.string.varieties_in_the_seed_chain)))
 
             }
         }
@@ -49,27 +49,27 @@ class PDFActivity : AppCompatActivity() {
     fun onItemClick(item: PDFData) {
         val title = item.title
         when(item.title) {
-            "District Wise Varieties of CZ" -> {
+            getString(R.string.district_wise_varieties_of_czz) -> {
                 val intent = Intent(this, PDFViewerActivity::class.java)
                 intent.putExtra("title",title)
                 startActivity(intent)
             }
-            "District Wise Varieties of SZ"->{
+            getString(R.string.district_wise_varieties_of_szz)->{
                 val intent = Intent(this, PDFViewerActivity::class.java)
                 intent.putExtra("title",title)
                 startActivity(intent)
             }
-            "District Wise Varieties of Soybean"->{
+            getString(R.string.district_wise_varieties_of_soybeanz)->{
                 val intent = Intent(this, PDFViewerActivity::class.java)
                 intent.putExtra("title",title)
                 startActivity(intent)
             }
-            "Varieties in the Seed Chain"->{
+            getString(R.string.varieties_in_the_seed_chainz)->{
                 val intent = Intent(this, PDFViewerActivity::class.java)
                 intent.putExtra("title",title)
                 startActivity(intent)
             }
-            "Varieties With Special Character"->{
+            getString(R.string.varieties_with_special_characterz)->{
                 val intent = Intent(this, PDFViewerActivity::class.java)
                 intent.putExtra("title",title)
                 startActivity(intent)

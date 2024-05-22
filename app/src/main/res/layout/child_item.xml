@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
             android:id="@+id/childTitle"
-            android:text="Language"
+            android:text="@string/language"
             android:foregroundGravity="center"
             android:gravity="center"
             android:textColor="?attr/colorOnSecondary"

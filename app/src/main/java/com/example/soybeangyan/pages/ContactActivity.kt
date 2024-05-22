@@ -30,7 +30,7 @@ class ContactActivity : AppCompatActivity() {
         window.statusBarColor = typedValue.data
 
         // Set ActionBar title
-        supportActionBar?.title = "Contact ICAR"
+        supportActionBar?.title = getString(R.string.contact_icar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 

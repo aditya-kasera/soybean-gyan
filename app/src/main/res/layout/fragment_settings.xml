@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".ui.settings.SettingsFragment">
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 
 
     <RelativeLayout
@@ -28,7 +32,7 @@
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="10dp"
             android:layout_below="@id/imgSettings"
-            android:text="App Settings"
+            android:text="@string/app_settings"
             android:textSize="50sp" />
 
 
@@ -69,11 +73,49 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvLang"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/cvThemes"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/btn_eng"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lightheme"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/btn_hin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/darktheme"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="10dp"
+
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cvFontSize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/cvThemes"
+            android:layout_below="@+id/cvLang"
             android:layout_margin="16dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="4dp">
@@ -87,7 +129,7 @@
                     android:id="@+id/fontSizeLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Font Size"
+                    android:text="@string/font_size"
                     android:textSize="15sp"
                     android:layout_weight="2"
                     android:layout_marginLeft="30dp"
@@ -105,5 +147,5 @@
         </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
-
+</ScrollView>
 </LinearLayout>

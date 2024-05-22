@@ -4,889 +4,1204 @@
     <string name="about_soybean_gyan">>हर कदम, हर डगर, सोयाबीन किसानों का हमसफ़र| भारतीय सोयाबीन अनुसंधान संस्थान, इन्दौर द्वारा विकसित, सोयाबीन ज्ञान ऐप, किसानों को सोयाबीन फसल की उत्पादन तकनीकी के विभिन्न पहलुओं पर विस्तृत जानकारी प्रदान करता है। इस ऐप के माध्यम से संस्थान द्वारा किसानोपयोगी नयी शोधों की सूचना एवं नयी अनुशंसाएँ किसानों के मोबाइल पर प्रदान की जाती है। \\nइसमें उपलब्ध जानकारी एवं उनके स्रोत निम्नलिखित हैं।</string>
 
 
-<string name="title_saved">Saved</string>
-<string name="title_home">Home</string>
-<string name="title_advice">Advice</string>
-<string name="title_settings">Settings</string>
-<string name="title_read">Read</string>
-<string name="search_bar_text">Search Soybean Gyan</string>
-<string name="buttonSelectPhoto">Select Photo</string>
-<string name="buttonTakePhoto">Start Camera</string>
-<string name="buttonDiagnose">Detect</string>
-<string name="defaultImage">Default image set now...</string>
-<string name="descriptionImage">View for displaying image</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_home">मुख्य पृष्ठ</string>
+    <string name="title_advice">सुझाव</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="title_read">पढ़े</string>
+    <string name="search_bar_text">सोयाबीन ज्ञान खोजे</string>
+    <string name="buttonSelectPhoto">चित्र चुने</string>
+    <string name="buttonTakePhoto">फोटो खींचे</string>
+    <string name="buttonDiagnose">जांचे</string>
+    <string name="defaultImage">अभी एक उदाहरण चित्र विद्यमान है।</string>
+    <string name="descriptionImage">चित्र दर्शाने का स्थान।</string>
 
-<string-array name="font_size_options">
-    <item>हर कदम, हर डगर, सोयाबीन किसानों का हमसफ़र| भारतीय सोयाबीन अनुसंधान संस्थान, इन्दौर द्वारा विकसित, सोयाबीन ज्ञान ऐप, किसानों को सोयाबीन फसल की उत्पादन तकनीकी के विभिन्न पहलुओं पर विस्तृत जानकारी प्रदान करता है। इस ऐप के माध्यम से संस्थान द्वारा किसानोपयोगी नयी शोधों की सूचना एवं नयी अनुशंसाएँ किसानों के मोबाइल पर प्रदान की जाती है। \\nइसमें उपलब्ध जानकारी एवं उनके स्रोत निम्नलिखित हैं।</item>
-    <item>Medium</item>
-    <item>Large</item>
-</string-array>
+    <string-array name="font_size_options">
+        <item> small </item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
 
 
-<string name="SoilRequirement">
+    <string name="SoilRequirement">
         Soybean can be grown in variety of soil types. However, a well drained, sandy loam to clayey soils with medium water holding capacity, rich in organic carbon and leveled fields with near neutral pH is ideal for harnessing maximum soybean yield. Soil with excessive salts / sodium and poorly drained conditions are not suitable for soybean.
     </string>
 
-<string name="Tillage1">
+    <string name="Tillage1">
         Deep ploughing is essential during summer, after harvesting the rabi crop. This facilitates exposing the hibernating insects to extreme heat and predatory birds as well as movement of nutrients and infiltration of soil water.
     </string>
 
-<string name="Tillage2">
+    <string name="Tillage2">
         One deep ploughing once in 3-4 years, otherwise one normal ploughing in summer followed by 2 criss-cross harrowings or cultivation for breaking of soil clods will make ideal seed bed for a good crop of soybean cultivation.
     </string>
 
-<string name="Tillage3">
+    <string name="Tillage3">
         To have sustainable soybean yield, it is very important to maintain soil health. Hence, farmers are advised to incorporate organic manure (well decomposed FYM @ 5-10 t/ha or Poultry Manure @ 2.5 t/ha) at the time of land reparation.
     </string>
 
-<string name="Tillage4">
+    <string name="Tillage4">
         If the quantity of organic manure is limited, they are advised to apply the same on rotation basis in their fields every year. It is also advised to apply Gypsum @ 150-200 kg/ha along with FYM/Poulty manure before the last harrowing in case the nutritional requirement is to be planned without sulphur sources
     </string>
 
-<string name="Tillage5">
+    <string name="Tillage5">
         Soon after arrival of monsoon, the land may be prepared by 2 criss-cross harrowings followed by planking to level the field. If the farmer is interested to apply PPI herbicide for control of weeds, this is the right time to do so.
     </string>
 
-<string name="Tillage6">
+    <string name="Tillage6">
         But for getting the actual benefit of Pre-plant Incorporation (PPI) herbicide, they should ensure that sufficient moisture is present in the soil. This also requires additional tillage for proper mixing of herbicide in the soil.Hence it should be sprayed immediately before second harrowing.
     </string>
 
-<string name="Tillage7">
+    <string name="Tillage7">
             During past few years, soybean yields have been adversely affected across the country because of adverse climatic conditions (Uncertainties/delayed or unpredictable onset of monsoon/heavy storms and long dry spells).
     </string>
 
-<string name="Tillage8">
+    <string name="Tillage8">
         Considering these, farmers are advised to use BBF or Ridge and Furrow methods for soybean planting in order to mitigate the climatic adversities.
     </string>
 
-<string name="Tillage9">
+    <string name="Tillage9">
         During long dry spells, the crop sown on flat land should receive a dora/kulpa/hoeing operation to reduce moisture loss from soil during early growth period (upto one month from sowing).
     </string>
 
-<string name="selection1">
+    <string name="selection1">
         In order to avoid risk of yield reduction due to aberrant climatic situations, farmers are recommended to grow 3-4 soybean varieties with varying maturity periods (Varietal Cafeteria Approach) in their fields.
     </string>
 
-<string name="selection2">
+    <string name="selection2">
         Different varieties possess resistance/tolerance to particular insect-pest and diseases. As they mature at different time, it gives convenience for the farmers during harvesting and threshing too.
     </string>
 
-<string name="selection3">
+    <string name="selection3">
         Genetically, the yield of soybean varieties is inversely proportionate with maturity period. Long duration soybean varieties are able to give more yields subject to application of irrigation in event of early cessation of monsoon.
     </string>
 
-<string name="selection4">
+    <string name="selection4">
         Farmers are advised to select 3-4 varieties popular among their zone and ensure the availability of seed of these varieties well in advance . They should also check the germination percentage of seed a fortnight prior to sowing so as to have optimum plant population. /tolerance to particular insect-pest and diseases. As they mature at different time, it gives convenience for the farmers during harvesting and threshing too.
     </string>
 
-<string name="selection5">
+    <string name="selection5">
         Farmers are advised to check germination status of seed purchased/available with them before sowing. To ensure optimum plant population and thereby good yield, minimum 70% germination is essential. This can be done through sowing of 100 seeds in 1m X 1m plot and it is kept moist. From 5-8 days emergence is counted everyday till the count is stabilized.
     </string>
 
-<string name="selection6">
+    <string name="selection6">
         The germination test can also be done by placing 100 seeds in between two newspaper sheets and rolling them with a moist cloth.
     </string>
 
-<string name="inoculation1">
+    <string name="inoculation1">
         Seed treatment is very important operation in soybean considering number of fungal, bacterial and viral diseases which causes considerable reduction in plant population and thereby yield.
 
     </string>
 
-<string name="inoculation2">
+    <string name="inoculation2">
 Hence, farmers are advised to treat soybean seed at the time of sowing using 2g Thiram+1g Carbendazim per kg seed. They can also use mixed combination of Carboxin 37.5% + Thiram 37.5% per kg seed or Trichoderma viride @ 8-10 g/kg seed.
 
     </string>
 
-<string name="inoculation3">
+    <string name="inoculation3">
 In areas where Yellow Mosaic Virus is infecting the soybean crop every year, farmers are recommended to carry out seed treatment with Thiamethoxam 30 FS (10 ml/kg of seed). /kg seed.
 
     </string>
 
-<string name="inoculation4">
+    <string name="inoculation4">
 Once the seed treatment with fungicides and insecticide is done, farmers are advised to inoculate the treated seed with bioinoculants like Bradyrhizobium japonicum and Phosphate Solubilizing Mircro-organism (PSM) each @ 5 g/kg seed immediately before sowing.
 
     </string>
 
-<string name="inoculation5">
+    <string name="inoculation5">
 If the soybean is grown in nontraditional/new area, they should increase the quantity to at least 10 g/kg seed.
 
     </string>
 
-<string name="inoculation6">
+    <string name="inoculation6">
 Farmers are also advised to follow correct sequence of seed treatment with recommended fungicides followed by insecticide and seed inoculation. Similarly, seed treatment with fungicides as well as seed inoculation simultaneously should be avoided as the micro-organisms present in the culture are destroyed.
 
     </string>
 
-<string name="inoculation7">
+    <string name="inoculation7">
 However, if Trichoderma viride has to be used, all the three bioagents can be used in one go for seed treatment. They should procure these inputs (fungicides and culture) from the authentic sources and store in cool place to maintain their viability.
 
     </string>
 
-<string name="sowing1">
+    <string name="sowing1">
 
 Since soybean is a rainfed crop grown during kharif season, it is sown only after the arrival of monsoon. Farmers are advised to sow their crop only after 100 mm rainfall is received to ensure germination of seed and development of the plant till next spell of rains.
     </string>
 
-<string name="sowing2">
+    <string name="sowing2">
 The sowing of soybean seed may be done either using traditional tools like bullock drawn Dufan /Tifan /seed drill or by using tractor drawn machines like Seed-cum-Fertilizer drill, BBF Seed Drill, FIRB Seed Drill keeping row to row spacing of 45 cm and plant to plant spacing of 4-5cm at 3 cm depth.
 
     </string>
 
-<string name="sowing3">
+    <string name="sowing3">
 In case of delayed sowing on account of late on-set of monsoon, farmers are advised to narrow the row spacing at 30 cm and increase the seed rate by 25% in order to optimize plant population and avert the likely yield loss due to slow growth.
 
 
     </string>
 
-<string name="sowing4">
+    <string name="sowing4">
 
 The seed rate and germination percentage are inversely proportional to seed size of soybean varieties. The small seeded varieties are excellent in germination percentage compared to bold seeded varieties.
     </string>
 
-<string name="sowing5">
+    <string name="sowing5">
 
 Therefore, the seed rate should be modified accordingly in order to achieve optimum plant population and yield. The recommended seed rate for soybean varieties having medium seed size (JS 20-29, JS 93-05, JS 2069) is 60-65 kg/ha while for bold seed varieties (JS 95-60, JS 20-34, NRC 7), the seed rate should be increased to 80 kg/ha. The seed rate for small seeded varieties like NRC 37 and JS 9752 should be reduced to only 50 kg/ha.
 
     </string>
 
-<string name="sowing6">
+    <string name="sowing6">
 If farmers have not used PPI herbicide (PPI) herbicides, they are advised to use recommended pre-emergence herbicide immediately after sowing to before emergence of soybean.
 
     </string>
 
-<string name="fertilizer1">
+    <string name="fertilizer1">
 
 Soybean is considered to be moderately exhaustive crop. Balanced nutrients application ensures better yield performance of soybean. The integration of 5-10 t Farm Yard Manure or 2.5 t poultry manure/ha along with the basal application of N:P2O5:K2O:S generally provides balanced nutrition for harnessing the yield potential of soybean.
     </string>
 
-<string name="fertilizer2">
+    <string name="fertilizer2">
 
 In soybean, use of fertilizers is recommended only as basal application. Therefore, farmers are advised not to use any fertilizers particularly urea or DAP as top dressing in standing crop unless being recommended by soybean scientists. In general, for harvesting good soybean yield, it requires recommended dose of NPKS which can be accordingly tailored after soil testing.
     </string>
 
-<string name="fertilizer3">
+    <string name="fertilizer3">
 
 Farmers are also advised not to mix fertilizers along with seed during sowing of soybean. In close contact with fertilizer it gets rotten in the soil. They should ensure the placement of seed at 3 cm and the fertilizer placement at 5 cm in the soil. The top dressing of fertilizer in soybean is generally avoided or to be used in consultation with soybean scientists.
 
     </string>
 
-<string name="intercropping1">
+    <string name="intercropping1">
 
 Soybean is grown throughout the country as rainfed crop during the June/July-October. It is also successfully grown as intercrop with cotton, sugarcane and other horticultural crops. Soybean + pigeonpea in 4: 2 combinations are most popular intercropping system in Maharashtra including Vidarbha region.
     </string>
 
-<string name="intercropping2">
+    <string name="intercropping2">
 
 Intercropping of soybean with suitable companion crop is found to be remunerative compared to sole cropping. In rainfed areas where only one crop is possible, it is recommended that soybean should be intercropped with pigeonpea. Similarly, under irrigated situations, it can be intercropped with maize, sorghum, cotton, pearl millet, finger millet so that it does not interfere with the next rabi crop. Soybean can also be successfully planted on the bunds of paddy fields for additional income.
     </string>
 
-<string name="intercropping3">
+    <string name="intercropping3">
 When intercropped, the sowing can be done at 30 cm row to row spacing in 4:2 (soybean + pigeonpea/ maize/ sorghum/ cotton). The intercrop seed drill designed and developed by ICAR-IISR can be used for this purpose. Farmers can also grow soybean at space available in different orchards like mango, jackfruit, guava, and papaya during initial years.
 
     </string>
 
-<string name="water1">
+    <string name="water1">
 Soybean is, by and large, grown as a rainfed crop during kharif season. Since last few years the distribution of rainfall was found to be uneven and erratic. Long dry spells, particularly during critical growth stages like seedling, flowering and pod fill affect the yield adversely. Hence, farmers are advised to apply life saving irrigation during these critical stages in order to sustain yield levels. Farmers are advised to use BBF or Ridge and Furrow methods for soybean planting in order to mitigate the climatic adversities. 20 The BBF or FIRB seed drill machines developed by ICAR-IISR can be used for the same.
 
     </string>
 
-<string name="water2">
+    <string name="water2">
 As explained earlier, seedling, flowering and pod formation are the critical growth stages of soybean. Hence, during any of these stages, life saving irrigation should be given to soybean in case of long dry spells.
 
     </string>
 
-<string name="harvesting1">
+    <string name="harvesting1">
 
 Optimum time of harvesting is very important for soybean as it causes yield loss due to shattering and viability loss due to filed weathering.
     </string>
 
-<string name="harvesting2">
+    <string name="harvesting2">
 
 Initiation of change of pod color of soybean is the right indication to go for harvesting. At this time, the moisture percentage of soybean grain is around 14-16%. Hence, the farmers are advised not to wait till the foliage/plant turns yellow. Harvesting can be done when 95% pod change colour from green.
     </string>
 
-<string name="harvesting3">
+    <string name="harvesting3">
 
 The harvested soybean crop, after sun drying for 2-3 days is ready for threshing. Because of sowing of subsequent crop if threshing is to be performed later, the harvested soybean should be collected preferably on threshing floor and covered with tarpoline to avoid damage from rain/shattering. To maintain viability of the seed and to avoid loss/mechanical damage, threshing should be done at 350-400 rpm.
     </string>
 
-<string name="harvesting4">
+    <string name="harvesting4">
 
 The threshed soybean should again be allowed to sun drying for 3-4 days in order to bring down the moisture percentage up to 10% which is essential to avoid fungal infection during storage.
     </string>
 
-<string name="harvesting5">
+    <string name="harvesting5">
 
 The storage place should be cool with aeration and insect free. The soybean bags should be kept upright as far as possible. If staging is to be done, it should be only up to 4-5 bags in order to maintain the viability/germinability of soybean seed.
     </string>
 
-<string name="harvesting6">
+    <string name="harvesting6">
 
 While moving the seed bags to storage house, it should be carefully placed at the appropriate place/platform. The seed bags should not be in direct contact with floor/wall. The moisture seepage in the walls/floor may be a source of infection of diseases, hence can be avoided for storage.
     </string>
 
-<string name="WeedManagement"> Weed Management</string>
+    <string name="WeedManagement"> Weed Management</string>
 
-<string name="loses">
+    <string name="loses">
 
         Weeds cause soybean yield losses up to 70% if not controlled. Weed management is very important operation in Vertisols and associated soils because of continuous rains. Weeds compete with soybean for nutrition and other natural resources at very higher rate. Hence, their management is very essential at appropriate stage.Yield losses depend on the time of weed occurrence, types of weeds and duration of weeds present in the field.
     </string>
 
-<string name="practise1">
+    <string name="practise1">
 
         The soybean crop should be weed free at least till 45 days after sowing (DAS).
     </string>
 
-<string name="practise2">
+    <string name="practise2">
 
         The priority-wise agronomic practices for this include two manual weeding (20 and 40 DAS) or intercultivation (Hand hoe/Dora/Kulpa). If it is not feasible due to continuous rains, then one can opt for chemical weed control.
     </string>
-<string name="precaution1">
+    <string name="precaution1">
 While using PPI herbicides, proper soil incorporation of herbicide must be ensured and it should be used only on moist soil.
 
     </string>
 
-<string name="precaution2">
+    <string name="precaution2">
 
 In case of PPI or PE herbicide application, farmers are advised to intercultivate the soybean crop by Dora/ Kulpa in between 20 to 25 DAS.
     </string>
-<string name="precaution3">
+    <string name="precaution3">
 
 To control the weeds effectively, it is very necessary to make the appropriate spraying solution and its uniform spray on entire area/weed foliage.
     </string>
-<string name="precaution4">
+    <string name="precaution4">
 Hence farmers are advised to use 500 litre of water per hectare along with recommended quantity of herbicides using Flat Fan or Flood Jet nozzle.
 
     </string>
-<string name="precaution5">
+    <string name="precaution5">
 It is also advised that, farmers should not carry any intercultural operations (Dora/Kulpa) till 10 days after spraying of PPI or PE herbicides. Similarly, same herbicide may not be used every year.
 
     </string>
 
-<string name="soynuts">
+    <string name="soynuts">
 First, remove all extraneous matter to clean soybean followed by washing and boiling for 10 minutes. Keep boiled soybean aside for soaking (2-3 hours). Then drain all water and sun dry soaked beans for one hour. Fry or roast soybean and use after mixing with spices, salt and condiments.
 
     </string>
 
-<string name="soymilk">
+    <string name="soymilk">
 Soymilk is hot water extract of soybeans. Soymilk can be handled and used in much the same way as dairy milk. Besides being rich in protein, vitamins and minerals, soymilk is lactose free, cholesterol free and low in saturated fat. To make 1 ltr soybean milk you need 125 gms soybean. Wash the soybean seeds, boil them for 10- 15 minutes, strain the water and soak them for 3-4 hours in water. Strain the water from the soybean and rub the bean between your palms to peel them. Put the soybean in a mixer and add water make a paste by adding little water into it. Pour 1 ltr. Hot water into the mixture and run the mixer again. Boil the milk while stirring with spoon, let it come to a boil and turn off the flame. Now sieve the boiled milk with a clean cloth. Soybean milk is ready.
 
     </string>
 
-<string name="soycurd">
+    <string name="soycurd">
 Mix soy milk and dairy milk in half-half ratio and add dahi culture in lukewarm milk. Mix it well and keep aside for setting of dahi. Keep it in refrigerator after setting. Soydahi will get ready. It contains high nutrient value.
 
     </string>
 
-<string name="tofu">
+    <string name="tofu1">
 Paneer prepared fron soymilk is called Tofu. 2 L milk is required to make 400 grams of tofu. Let the soybean milk\'s temperature come to 80 degree. Now add and mix lemon juice with soybean milk and stir 1-2 times. Do not stir continuously. You will be able to see milk coagulating and water separating from it. Sieve the coagulated milk instantly through clean muslin cloth and then place a heavy object on it. Cut it into small pieces with knife to use as Paneer.
 
     </string>
 
-<string name="soyflour">
+    <string name="soyflour">
 Soy flour can be processed by various methods- full fatted, partially defatted, defatted, roasted, enzyme inative or active, lecithinated etc. Full fatted soy flour can be prepared easily at home. For preparing at home, wash cleaned soybean with water. Boil for 20 minutes and sundry for two to three days and grind in mixer and grinder. Add soy flour in wheat flour to prepare chapatti. For 9kg wheat flour add 1 kg soy flour for fortification.
 
     </string>
 
-<string name="soychakli">
+    <string name="soychakli">
 For preparing Soy chakli mix and sieve rice flour (200 gm), urad dal flour (100 gm), soy flour (100 gm). Add all spices (carom, cumin, red chilli, asafetida, salt) and oil and mix well. Add little water to knead soft dough and put inside chakli mould. Prepare round shaped chakli by pressing the machine from the top revolving it in circular motion. Put them in the pan and fry on a low or medium flame.
 
     </string>
 
-<string name="soymathari">
+    <string name="soymathari">
 Take refined wheat flour and soy flour (2:1), sieve together and put salt, carom seeds and Ghee in flour and mix properly. With the help of water knead a hard dough. Now make dough balls and roll into Puri. Make tiny round holes in a line (with a fork) so that it is cooked properly from the inside too and does not get puffy like a Puri. Pour oil in a frying pan (kadhai) and heat, put Mathha\'s in hot oil. Fry on a low flame as you overturn them regularly till they turn brown then take them out.
 
     </string>
 
-<string name="soyladdo">
+    <string name="soyladdo">
 Soy-Atta laddu are energy dense food products relished eating in winters. Add ghee in a wok and allow to it melt. Now add sieved wheat and soy flour in 1:1 ratio in melted ghee and stir constantly. Roast the flour on medium flame until it turns light brown in color and you get good aroma. Add cashews pieces, sugar and crushed coconut in slightly hot roasted flour. Take little amount of mixture in your hands and roll giving it a round shape.
 
     </string>
 
-<string name="soynankhattai">
+    <string name="soynankhattai">
 Soy Nankhatai can be prepared on gas in wok with heavy base or pressure cooker. Take refined wheat flour and soy flour (2:1), sieve together. Grind peeled cardamom and thinly slice pistachios. Melt butter at room temperature. Mix maida, roasted soy flour, baking powder, cardamom powder and sugar. Now add melted butter in the mixture and with help of your hands mix until you get soft dough. Take a utensil with heavy and plain base and add 400 grams salt or sand. Spread it evenly all around and place a wire or net stand in the utensil. Cover the utensil and allow it to get warm at low flame. Meanwhile prepare small balls of nankhatai and place them on a greased plate. Bake nankhatai for 15-20 minutes on low flame.
 
     </string>
 
-<string name="soyupma">
+    <string name="soyupma">
 Mix soy okara and semolina in 1:1 ratio and roast till it gets brown with constant stirring. Keep roasted mix aside in plate. Now roast groundnut till brown and keep aside. Heat oil in wok and add mustard seeds, when seeds splutter, add green chillies, carrot and peas and fry for 2-3 minutes. Now add roasted okara-semolina mix and add three times water to mix. Add salt and as batter gets thick add groundnuts and cook for 3-4 minutes.
 
     </string>
 
-<string name="soyhalwa">
+    <string name="soyhalwa">
 Add ghee in wok and melt it. Add suji okara mix (1:1) and roast till it becomes brown. After roasting add 4 times water to the mix and keep stirring till it gets thick. Keep the flame low, while cooking and add cashew, almond and rasins at end.
 
     </string>
 
-<string name="soypakora">
+    <string name="soypakora">
 
 Add okara and besan in equal ratio. Add green chillies-ginger-garlic paste, finely chopped onion and corriender leaves, spices (asafetida, red chilli, corriender powder, salt) and mix well. Batter for preparing bhajie is ready. Heat oil in wok and add in small portion using hand. Fry till golden brown and remove from oil.
     </string>
 
 
-<string name="BlueBeetle1">
+    <string name="BlueBeetle1">
         This insect is dark metallic blue (almost blackish) in color, with orange head. \n\nWith little disturbance, it falls on the ground and shows Feign-death.
     </string>
 
-<string name="BlueBeetle2">
+    <string name="BlueBeetle2">
         Usually its peak period of activity is first fortnight of July. During this period, it feeds on the cotyledons and young leaves, which results in stunted growth. \n\nOn heavy infestation, plant population is greatly affected and the yield loss is to the tune of 5 q/ha. Its infestation is more under high soil moisture conditions.
     </string>
 
-<string name="BlueBeetle3">
+    <string name="BlueBeetle3">
         Blue beetle can be effectively controlled by spray of Quinalphos 25EC @ 1.5 l/ha.
     </string>
 
-<string name="HairyCaterpillar1">
+    <string name="HairyCaterpillar1">
 
         Adult moths are light yellow or pink in colour. Wings are also light yellow with small black spots. \n\nYoung larvae are dirty yellow which become brownish red later on. Larvae posses long bristles all over the body.
     </string>
-<string name="HairyCaterpillar2">
+    <string name="HairyCaterpillar2">
         Newly hatched larvae are gregarious and skeletomize the leaves by feeding on chlorophyll content. After 8-10 days, larvae scatter to neighboring plants and consume leaves. \n\nIt timely control measures are not taken, population lf larvae and the damage increase very rapidly. On heavy incidence, they completely denude the plants.\n\nThis results in reduction in grain number and weight per pod and ultimately in yield. Larvae damage the crop from July-August to October.
     </string>
-<string name="HairyCaterpillar3">
+    <string name="HairyCaterpillar3">
 Generally the Bihar hairy caterpillar can be found in abundant numbers on single soybean plant and feed on foliage leaving only veins. These plants should be removed and destroyed for preventing its further spread.\n\nIf needed, the crop should be sprayed with Triazophos 40 EC (0.8 l/ha) or Quinolphos 25 EC (1.5 l/ha) or Indoxacarb 14.5 SC (0.3 l/ha) or Chlorentraniliprol 18.5 SC (0.10 l/ha) to manage the pests.
     </string>
-<string name="GirdleBeetle1">
+    <string name="GirdleBeetle1">
 This is a very typical insect for its damage and control in soybean.\n\nAdults are 8-10 mm long, dark yellow in colour. Lower half of the forewing (elytra) is black, and these segmented antennae are black and turned backwards.\n\nGrubs are apodus (without legs), yellow and possess small protuberances on the body.
     </string>
-<string name="GirdleBeetle2">
+    <string name="GirdleBeetle2">
         Female adult makes two rings on the plant for egg laying. \n\nThe portion above these girdles gets dried and can be easily spotted in the field. Grubs feed inside the stem and make it hollow, causing flower and pod drop. At later growth stage, grubs cut-down the plant.\n\nAbout 50% loss in yield is likely with thistype of damage. It is observed that plants infested during July-August, suffer the most This insect undergoes hibernation as grub, inside a small piece of stem.\n\nThe maggot, before changing to pupa, cuts
 a small hole from inside for the escape of adult fly. Infested plants show typical leaf damage symptoms. About 20% yield loss can occur from stem fly damage depending upon the crop stage.
     </string>
-<string name="GirdleBeetle3">
+    <string name="GirdleBeetle3">
 The crop should be sprayed with  Triazophos 40 EC @ l/ha or Thichloprid 21.7 SC @ 0.65 l/ha.
     </string>
 
-<string name="PodBorer1">
+    <string name="PodBorer1">
 Adults moths are dirty yellow or brownish in color. \n\nForewings have zigzag lines on the upper surface and a kidney shaped black spot on the lower surface. Hind wings are white withe broad black area near the outer edge. \n\nConsiderable variability has been observed for larval colour. They can be brown, pink, green or ywllowish, with differently coloured longitudinal lines over the body.
     </string>
-<string name="PodBorer2">
+    <string name="PodBorer2">
 Prior to pod  initiation, larvae feed on young leaves, retarding plant growth. Subsequently, they feed on buds, flowers, young pods and on seeds within the developed pods. \n\nHeavy incidence can reduce the yield 90%. This insect damages the crop from July to October.
     </string>
 
-<string name="PodBorer3">
+    <string name="PodBorer3">
 The crop should be sprayed with Indoxacard 14.5 SC @ 0.3 l/ha.
     </string>
 
-<string name="Semiloopers1">
+    <string name="Semiloopers1">
 Predominantly two types of green semiloopers damage soybean the most. One-Adults have two silvery spots on each of the forewings. \n\nLarvae are pale green, with greenish-blue and white longitudinal lines on the body. Two-Adults have a large, triangular golden spot on each of the forewings. \n\nLarvae are green in colour with minute spines on the body. Both types of larvae form semilooper while in movement.
     </string>
 
-<string name="Semiloopers2">
+    <string name="Semiloopers2">
 Young larvae scratch the leaves, leaving only white membrane. Grown up larvae feed on leaves making differently shaped holes. \n\nOn Heavy incidence, only leaf-veins are seen on the plant. \n\nDefoliation may result up to 50% reduction in yield. These larvae reach their peak activity during August-September.
     </string>
 
-<string name="Semiloopers3">
+    <string name="Semiloopers3">
 The Crop should be sprayed with Chlorentramiliprol 18.5 SC @ 0.1 l/ha or Quinolphos 25 EC @ 1.5 l/ha or Triazophos 40 EC @ 0.8 l/ha or Indoxacarb 14.5 SC @ 0.3 l/ha.
     </string>
 
-<string name="StinkBug1">
+    <string name="StinkBug1">
         Adults are about one and a half cm sap sucking insects. \n\nAntennae are 5 segmented. After hatching from eggs, laid in groups, the nymphs remain congregated at one  place for sometime. \n\nNymphs are light green with coloured dots on the body.
     </string>
 
-<string name="StinkBug2">
+    <string name="StinkBug2">
         Initially, newly hatched nymphs suck the sap in groups. After few days they move to the pods. \n\nBoth adults and the nymphs suck the sap from seeds by piercing through the pod wall. Consequently, the seeds become shriveled, seed coat blackens and the pods fall prematurely. \n\nAbout 80% reduction in yield has been found, if average the population of this insect is even one adult per plant. It infests the crop at podding stage (Septembe-October).
     </string>
-<string name="StinkBug3">
+    <string name="StinkBug3">
       The crop should be sprayed with Quinolphos @ 1.5 l/ha or Indoxacrab @ 333 ml/ha.
     </string>
 
-<string name="LeafFolder1">
+    <string name="LeafFolder1">
 Adults are medium sized moths with creamish wings having brownish black wavy lines. \n\nLarvae are shining green with orange head.
     </string>
 
-<string name="LeafFolder2">
+    <string name="LeafFolder2">
 Prior to pod initiation, larvae feed on young leaves, retarding plant growth. \n\nSubsequently, they feed on buds, flowers, young pods and on seeds within the developed pods. Heavy incidence can reduce the yield by 90%. \n\nThis insect damages the crop from July to October.
     </string>
 
-<string name="LeafFolder3">
+    <string name="LeafFolder3">
 Install 4-5 insect specific pheromone traps per acre.
     </string>
 
-<string name="LeafMiner1">
+    <string name="LeafMiner1">
         Adults are light gray coloured small moths. Fore wings has a white spot near the upper margin, whereas king wing has row of hairs on the margins. \n\nLarvae is 6-8 mm long and dirty white or greenish in colour, with posterior tapering body. Head is shining black.
     </string>
-<string name="LeafMiner2">Initially, larvae feed inside the leaf by mining between the two epidermal layers. \n\nThis results in typical crinkling of leaves. Later on, larvae feeds on the leaf surface by remaining inside a silken web. Due to this typical feeding behaviour, leaves assume the shape of "beak". \n\nDue to heavy incidence of leaf miner, crop appears as if it is burnt, and suffers 40-70% yield loss. Although it remains active throughout the Kharif Season, but the early infestation causes severe yield losses.
+    <string name="LeafMiner2">Initially, larvae feed inside the leaf by mining between the two epidermal layers. \n\nThis results in typical crinkling of leaves. Later on, larvae feeds on the leaf surface by remaining inside a silken web. Due to this typical feeding behaviour, leaves assume the shape of "beak". \n\nDue to heavy incidence of leaf miner, crop appears as if it is burnt, and suffers 40-70% yield loss. Although it remains active throughout the Kharif Season, but the early infestation causes severe yield losses.
 
     </string>
-<string name="LeafMiner3">
+    <string name="LeafMiner3">
 Install 4-5 insect specific pheromone traps per acre.
     </string>
 
-<string name="StemFly1">
+    <string name="StemFly1">
         Adult is a shining black fly and about 2 mm in size. It lays eggs in cotyledons or first trifoliate. \n\nDamaging stage in maggot, which is creamish yellow in colour and 3-4 mm long in size.
     </string>
 
-<string name="StemFly2">It damages the crop from germination till the end through several generations. Up to 7 days of germination, the damage is conspicuous. \n\nMaggots feed inside the plant by making zigzag tunnels. Due to early plant population to sub optimum. \n\nWhen attacked at later stage, although the plants do not dry up, but the stem tunneling results in reduction in number and weight of seeds per pod, and ultimately in yield. \n\nMaggot, before changing to pupa, cuts a small hole from inside for the escape of adult fly. Infested plants show typical leaf damage symptoms. About 20% yield loss can occur from stem fly damage depending upon the crop stage.
+    <string name="StemFly2">It damages the crop from germination till the end through several generations. Up to 7 days of germination, the damage is conspicuous. \n\nMaggots feed inside the plant by making zigzag tunnels. Due to early plant population to sub optimum. \n\nWhen attacked at later stage, although the plants do not dry up, but the stem tunneling results in reduction in number and weight of seeds per pod, and ultimately in yield. \n\nMaggot, before changing to pupa, cuts a small hole from inside for the escape of adult fly. Infested plants show typical leaf damage symptoms. About 20% yield loss can occur from stem fly damage depending upon the crop stage.
     </string>
-<string name="StemFly3">
+    <string name="StemFly3">
 For management of stem fly treat the seed with Thiamethoxam 30 FS @ 10ml/kg seed or Imidachloprid 48 FS @ 1.25 ml/kg seed.
     </string>
 
-<string name="TobaccoCaterpillar1">
+    <string name="TobaccoCaterpillar1">
 Adult moths posses golden brown forewings with white lines. Hind wings are white with brown veins. \n\nLarvae are dirty green in colour with yellow, green and orange longitudinal lines. Each abdominal segment has a black spot on either side area near the outer edge. \n\nGenerally the larvae of tobacco caterpillar can be found in abundant numbers on single soybean plant and feed on foliage leaving only veins.
     </string>
 
-<string name="TobaccoCaterpillar2">
+    <string name="TobaccoCaterpillar2">
 Newly hatched larvae feed gregariously on the chlorophyll content, and skeletonize the leaves. After 3-4 days larvae scatter and feed on the leaves individually. \n\nIn case of heavy incidence, the larvae damage the pods as well. Excessive application of nitrogenous fertilizer favors heavy incidence of this insect. Larvae population is found maximum in the month of August.
     </string>
 
-<string name="TobaccoCaterpillar3">
+    <string name="TobaccoCaterpillar3">
 These plants should be removed and destroyed for preventing its further spread. If needed, the crop should be sprayed with Triazophos 40 EC (0.8 l/ha) or Quinolphos 25 EC (1.5 l/ha) or Indoxacarb 14.5 SC (0.3 l/ha) or Chlorentraniliprol 18.5 SC (0.10 l/ha) to manage the pests.
     </string>
 
-<string name="WhiteFly1">
+    <string name="WhiteFly1">
         Adults are 1-2 mm in size and light yellow in colour. \n\nWings are coated with white waxy covering. They are usually found on the under surface of leaves during day time. \n\nNymphs are round or oval shaped and greenish in colour.
     </string>
 
-<string name="WhiteFly2">This insect damages soybean in three ways: \n\nOne:- Adults amd nymphs suck the leaf sap from under surface. \nThis results in retarded plant growth, yellowing of leaves and dropping of flowers and young pods. \n\nTwo:- While sucking the sap, they secrete "honey-dew", which gets deposited on the lower leaves and facilitates development of "Sooty-mould". Photosynthesis gets adversely affected. It also transmits yellow mosaic virus (YMV) from one plant to other causing yellow mosaic disease. Leaves become typically yellow.\nAbout 80% yield loss is estimated by yellow mosaic disease in endemic areas.    </string>
+    <string name="WhiteFly2">This insect damages soybean in three ways: \n\nOne:- Adults amd nymphs suck the leaf sap from under surface. \nThis results in retarded plant growth, yellowing of leaves and dropping of flowers and young pods. \n\nTwo:- While sucking the sap, they secrete "honey-dew", which gets deposited on the lower leaves and facilitates development of "Sooty-mould". Photosynthesis gets adversely affected. It also transmits yellow mosaic virus (YMV) from one plant to other causing yellow mosaic disease. Leaves become typically yellow.\nAbout 80% yield loss is estimated by yellow mosaic disease in endemic areas.    </string>
 
-<string name="WhiteFly3">
+    <string name="WhiteFly3">
 For management white fly (YMV), treat seed with Thiamethoxam 30 FS @ 10ml/kg seed or Imidachloprid 48 FS @ 1.25 ml/kg seed further if white fly is seen, spray the crop with Thiamethoxam 25 WG @ 100g/500 litre water/ha.
     </string>
 
-<string name="WhiteGrub1">Adults are dark brown or black, nocturnal, found around the light source during nights. \n\nGrubs are dirty white with semicircular body, and brown head and mouth parts.
+    <string name="WhiteGrub1">Adults are dark brown or black, nocturnal, found around the light source during nights. \n\nGrubs are dirty white with semicircular body, and brown head and mouth parts.
     </string>
 
-<string name="WhiteGrub2">
+    <string name="WhiteGrub2">
         Grubs feed on the roots inside the soil, which results in drying of plants. \n\nDried plants can be pulled out even with a gentle jerk. Infested fields show patches of dried plants. \n\nGrubs remain active from July to September.
     </string>
 
-<string name="WhiteGrub3">
+    <string name="WhiteGrub3">
         The crop should be sprayed with chlorpiariphos.
     </string>
 
-<string name="StrippedSemilooper1">
+    <string name="StrippedSemilooper1">
         Adults are 3-4 cm large, brown coloured moths. Forewings have 3 dark brown bands, while the hind wings have smoky lines near the margins. \n\nNewly hatched larvae are greenish in colour, which become brownish on development. Grown-up larvae possess longitudinal pink and red stripes.\n\nFull grown larvae are 4-5 cm long and make typical semi-loop on movement.
 
     </string>
 
-<string name="StrippedSemilooper2">
+    <string name="StrippedSemilooper2">
         Larvae feed on leaves from margin towards mid rib. \n\nOn heavy incidence, they consume entire leaf. At later growth stage, they have also been found to feed on flowers and hard leaves. \n\nDamage results in less pods and ultimately less yield. Excess rains favour its damaging activity.
     </string>
 
-<string name="StrippedSemilooper3">
+    <string name="StrippedSemilooper3">
 Install 4-5 insect specific pheromone traps per acre.
     </string>
 
-<string name="BacterialBlight1">
+    <string name="BacterialBlight1">
 Causal Organism:- Pseudomonas savastanoi (P.syringae) pv.glycinea (Coerper.) Young. Dye and Wilkie (Syn. P. glycinea. Coerper). \n\nThe bacterium seed and air borne.\n\nIt affects stems, leaves, petioles, and pods. \n\nThe disease commonly occurring in Madhya Pradesh, Maharashtra, Himachal Pradesh, Uttaranchal, and North East States. \n\nLosses ragging from 5-18% are known mainly on account of loss of leaf area during the productive stage of soybean. \n\nCool and rainy weather favours the disease but it also occurs in warmer regions. High temperature and dry weather curb the disease.
     </string>
 
-<string name="BacterialBlight2">
+    <string name="BacterialBlight2">
 If infected seeds are used for sowing or infection is at an early stage then seedlings remain stunted and even die if growing point is infected. Lesions may also appear on the margin of the cotyledons. \n\n2. On well grown plant:- \n\nSmall, angular, translucent, water soaked yellow to light brown spots appear on leaves. \n\nCenter of spots soon dry out and spots turn reddish brown to black. These spots remain surrounded by water soaked margin and bordered by a yellowish green halo. \n\nOn the underside of the leaf they glisten when wet. \n\nHeavy infection of young leaves may produce general chlorosis. \n\nIn later phase central portion of the older spots drop out or tear away so leaves appear ragged or shredded.
     </string>
 
-<string name="BacterialBlight3">
+    <string name="BacterialBlight3">
 Pathogen free seed should be used for cultivation. \n\nInfected residues of preceding crop should be burnt. \n\nUse of varieties having good resistance viz. Bragg, VLS2, Shivalik, Himso 1563, KHSb2, PK262, JS71-05, JS72-280, JS335 etc. \n\nFoliar spray of Copper Oxychloride (0.2%) + Streptocycline (0.02%) at time of appearance of disease.
     </string>
 
-<string name="BacterialPustule1">
+    <string name="BacterialPustule1">
 Bacterial Pustule
 Causal Organism :- Xanthomonas axonopodis pv. glycines Syn. Xanthomonas campestris pv. glycines (Nakano) Dye. \n\nIt affects Leaves, stems, pods and seeds. \n\nDistributed throughout soybean growing areas of India but more prevalent in the states of Madhya Pradesh, Rajasthan Himachal Pradesh, Uttaranchal and North Eastern States. \n\nThe disease have got the potential to cause 15-53% loss but in India maximum yield losses can go up to 37% with an average loss of 20% under favourable conditions. The loss is mainly accounted to defoliation production of empty pod and reduction in number and seed size. \n\nWarm (temperature around 280C) and humid weather with frequent showers favours the disease. Unlike bacterial blight, bacterial pustule is not checked by high temperature.
     </string>
 
-<string name="BacterialPustule2">
+    <string name="BacterialPustule2">
 0n well grown plant:- \n\nDisease appear as minute, pale green elevated spots on interveinal areas on both sides of the leaves. \n\nLater on small raised light gray to yellowish pustules are formed in the center of spots usually on the undersurface with a pale green halo around them. \n\nThe pustules may coalesce in to large spots. \n\nLeaves become ragged when dead areas are torn away by wind. \n\nSpots may also develop on pods of susceptible variety.
     </string>
 
-<string name="BacterialPustule3">
+    <string name="BacterialPustule3">
 Destruction of diseased crop residues/debris and deep summer ploughing. \n\nUse of disease free and clean seed harvested from healthy plants for cultivation. \n\nCultivation of resistant varieties like PK327, PK 416, PK 1029, PK 1042, JS 71-05,JS 90-41, Bragg, Himso 1563, Indira Soya 9, KHSB 2, MAUS 32, NRC 7, NRC 37, SL 96, VLS 2 etc. \n\nSeed treatment with Streptocycline @ 500 mg/kg seed and spray of copper-oxychloride (1.6 kg) + Streptocycline (160 g) or Kasugamycin/Validamycin (1.6kg) + copper-oxy chloride (1.6 kg) in 800 litre of water/ha.
     </string>
 
-<string name="CharcolRot1">
+    <string name="CharcolRot1">
 Causal Organism:- Macrophomina phaseolina (Tassi) Goid, which also causes dry root rot, ashy or stem blight. \n\nThe pathogen is soil and seed borne. \n\nDry conditions, relatively low soil moisture and nutrients and temperature ranging from 25 °C to 35 °C are favourable for the disease. \n\nIt can cause up to 77% yield losses under congenial conditions. Disease is common in M.P., Rajasthan, Delhi etc. It is one of the Pathogens responsible for epiphytotic occurred in Guna district of M.P. in 1997 season during seedling stage which has caused substantial loss to plant stand and yield. \n\nIt affects roots, stems, pods and seeds.
     </string>
 
-<string name="CharcolRot2">
+    <string name="CharcolRot2">
 1. Seed and Seedling:- Seed develops black discolouration. \n\nFungus infects the root and stem bases of the plant and disease manifests itself as root rot and wilt. \n\nInfected seedlings exhibit reddish brown discolouration at the point of emergence of the hypocotyl. Discolouration in stem is evident at the soil level and above. \n\nSeedlings become weak and die prematurely. \n\n2. Well grown plant:- Typical development of charcoal rot with light gray or silvery discoloration of epidermal and sub-epidermal tissues and light brown discolouration of internal tissues of lower stem and upper tap root. \n\nLeaves become chlorotic an d wilting and drying of plants is apparent leaving very low plant population in the field. \n\nExternal lesions on stem are also produced at later stage.
     </string>
 
-<string name="CharcolRot3">
+    <string name="CharcolRot3">
 Crop rotation or mixed cropping with cotton or cereals. \n\nTimely use of optimum doze of fertilizers. \n\nUse of less susceptible varieties like NRC 2, NRC 37, JS 71-05, LSb 1, MACS 13 etc. \n\nMaintenance of low plant population in the field where disease appear in severe form to have vigorous plants. \n\nFlooding of field 3-4 week before sowing or maintaining high soil moisture by irrigation, if possible, during crop growth. \n\nSeed treatment with captan or thiram @ 3 g/kg seed or use of Trichoderma harzianum or T. viride @ 4 to 5 g/kg seed.
     </string>
 
-<string name="SclerotialBlight1">
+    <string name="SclerotialBlight1">
 Causal Organism:- Sclerotium rolfsii Sacc.(Teleomorph Athelia rolfsii). \n\nThe pathogen is soil borne. \n\nIt affects Stem bases and lower part of stem. \n\nDisease is occurring throughout soybean growing areas of India but most common in the states of Madhya Pradesh, Rajasthan and Karnataka. The disease causes yield losses ranging from 30 to 40 % under congenial climate. \n\nHot (25 °C to 35 °C) and humid weather, well aerated sandy or sandy loam soil high soil moisture, high plant population dense canopy cover and large amount of undecomposed organic matter from previous crops favour the disease.
     </string>
-<string name="SclerotialBlight2">
+    <string name="SclerotialBlight2">
 1. Seed and seedling:- Pathogen causes damping off in seedlings. Infection starts as small water soaked light brown lesions at collar region or the region of the seedling just below the soil surface. \n\nSubsequent decay in collar region results in drooping and wilting of seedlings.\n\nMost striking symptom is the formation of white cottony mats of mycelium around the collar region and some times on the soil (generally disappears during drought) with reddish brown to dark brown, globose to sub-globose sclerotia about the size of mustard seeds.\n\n2. Well grown plant:- Infection appears in the form of basal stem rot, wilt and blighting of the leaves. Appearance of white cottony mats of mycelium around the collar region with sclerotia is also common.
     </string>
-<string name="SclerotialBlight3">
+    <string name="SclerotialBlight3">
 Pathogen perpetuate through soil, crop residues and weeds therefore, field sanitation, deep summer ploughing to bury debris and sclerotia to a depth of 15 to 25 cm help in reducing the disease. \n\nCrop rotation with maize, sorghum etc. helps in containing the disease to some extent. \n\nUse of less susceptible variety NRC 37 will reduce the yield loss. \n\nRouging and burning of infected plants check the spread of disease. \n\nSeed treatment with thiram + carbendazim (2:1) @ 3 g/Kg or Trichoderma varied @ 4-5 g/Kg seed is effective Soil application of neem cake @ 2.5 t/ha or soil drench with Chloroneb @ 20 kg/ha in disease hot spot areas is recommended.
     </string>
 
-<string name="SclerotiniaStemRot1">
+    <string name="SclerotiniaStemRot1">
 Causal Organism :-Sclerotinia sclerotiorum. \n\nThe pathogen is seed as well as soil borne. \n\nIt affects Stem nodes, sometimes side branches and pods.\n\nYield loss of 15% can occur due to this disease. \n\nDisease is favoured by cool(night temperature 10 °C to 21 °C), frequent rain and moist weather or wet conditions just prior to flowering to pod development stage. \n\nContinuous surface wetness for 42-72 hours is required for disease development.
 
     </string>
 
-<string name="SclerotiniaStemRot2">
+    <string name="SclerotiniaStemRot2">
 1.On seed and seedling:- Severely infected seeds become flat, small and chalky. \n\n2.On well grown plants:- Disease generally appears at lowering stage and characterized by water soaked lesions at nodes of stem, which slowly turns to tan to white and spread acropetally and basipetally from nodes. Lesions lateron girdle the stem. Symptoms are rarely observed on the main stem at the soil  line. \n\nFoliar symptoms appear 7-14 days after stem lesions as leaves become grayish green and eventually turn brown. Under condition of excessive moisture wilting of leaves is common. \n\nStem is girdled by white fluffy mycelial growth on all diseased plant parts, which is striking symptom of the disease.
 
     </string>
 
-<string name="SclerotiniaStemRot3">
+    <string name="SclerotiniaStemRot3">
 Deep summer ploughing to bury plant debris. \n\nIntegrating crop management by using clean seeds without sclerotia, having low plant population in the field and rotation of soybean with non leguminous and non host crops. \n\nAvoiding planting of soybean directly after common bean / phaseolus spp, and sunflower etc. \n\nSeed treatment with Trichoderma viride 4-5 g or thiram + carbendazim (2:1) @ 3 g/ kg seed.
 
     </string>
 
-<string name="PodBlight1">
+    <string name="PodBlight1">
         Causal Organism:- Colletotrichum dematium f.sp. truncatum or Colletotrichum truncatum (Schw.) Andrus and W.D. Moore.\n\nThe pathogen is highly seed borne. \n\nIt affects Stems, petioles, leaves and seeds. \n\nAnthracnose is visible throughout the soybean growing states of India.\n\nIt generally causes 16 to 25% damage but sometimes loss in yield can be up to 100% specially when disease appears in severe form during seedling stage.\n\nWarm weather (temperature around 35 °C) coupled with rain, dew or fog, which car provide free moisture for the periods of 12 hr. or more favours the infection of disease.
     </string>
 
-<string name="PodBlight2">
+    <string name="PodBlight2">
 1. Seed and Seedling:- Infected seed becomes shriveled, mouldy and brown.\n\nPre-and post-emergence damping off/ mortality may occur when infected seeds are planted. \n\nSymptoms on cotyledons appear as dark brown sunken cankers. \n\n2. Well grown plant:- Crop is attacked at all stages of growth out symptoms are evident in the early reproductive stage on stems, petioles and pods. \n\nGenerally, irregular reddish to dark brown areas appear on infected parts first on the stem. Later on these are covered by black fungal fruiting bodies (acervuli) with setae (minute black spines), which can be seen by unaided eye. These setae are diagnostic character of the disease.
 
     </string>
 
-<string name="PodBlight3">
+    <string name="PodBlight3">
 Use of clean and healthy seeds. \n\nBurning of infected plant debris. \n\nCultivation of moderately resistant varieties like Bragg, Himso 1563, Hardee, PK 472, JS 80-21, Pusa 37, VLS 21, NRC 12 etc. \n\nSeed treatment with thiram +carbendazim (2:1) or captan @ 3g/Kg seed and spray of zineb or mancozeb 0.2% on infected crop.
     </string>
 
-<string name="Rust1">
+    <string name="Rust1">
 Causal Organism:-Phakopsora pachyrhizi syd. and P Syd. \n\nThe pathogen is air borne. \n\nIt affects Leaves, petioles, stems and pods. \n\nRust is not only commonly occurring in the major soybean growing states of Madhya Pradesh, Karnataka and Maharashtra but also reported from other states like Uttaranchal, Tamilnadu, Kerala, Rajasthan, Andhra Pradesh and North Eastern States. \n\nIt can reduce 40 to 80 % yield. \n\nA temperature range of 22-27 °C accompanied with 80-90% relative humidity and extended leaf wetness favours the disease most foggy mornings further favour and aggravate the rust.
     </string>
 
-<string name="Rust2">
+    <string name="Rust2">
 1.0n seedling and well grown plants:- Initially abundant chlorotic gray brown minute spots of the size of tip of sewing needle appear in-group on the leaves, primarily on the lower surface . Slowly these spots increase in size and turn to tan to reddish brown angular spots measuring 2 to 5 mm² and later form pustules. \n\nUsually the leaf tissues around the group of spots become yellow which distinguishes rust symptoms from bacterial pustule symptoms where leaf tissues around a single spot become chlorotic and yellow. \n\nLeaves turn brown within a short time causing early defoliation and reduction in number of pods, seeds and seed weight. \n\nThe disease usually appears in small patches in the field then quickly spread to whole field.
 
     </string>
 
-<string name="Rust3">
+    <string name="Rust3">
 Deep ploughing during summer. \n\nNo summer and rabi cultivation of soybean or rouging of self-sown soybean plants in these seasons. Roguing and burning of infected plants, crop, and crop residues during the season. \n\nIntercropping of soybean with other rainy season crops of the area. \n\nCultivation of rust-tolerant varieties like Ankur, PK 1024, PK 1029, JS 80-21, Indira soybean 9, MAUS 61-2, or early maturing varieties.\n\nTwo to three sprays of hexaconazole (Contaf) or propiconazole (Tilt) or triadimefon (Bayleton) or oxycarboxin (plantvax) @ 0.1% are found effective. To enable entering soybean field for spray, at least after every 15 rows a strip of about 1.50 m be left vacant in the field.\n\nOne protective spray of any above.
     </string>
 
-<string name="CercosporaBlight1">
+    <string name="CercosporaBlight1">
 Cercospora Blight; Causal Organism: Cercospora kikuchii (T. Matsu and Tomoyasu) Gardner. \n\nThe pathogen is seed as well as airborne.\n\nIt affects leaves, stems, pods, and seeds. the disease is prominently occurring in the states of Madhya Pradesh, Maharashtra, Karnataka, and North Eastern States. \n\nIt can result in 15 to 30% yield loss. \n\nHumid and warm weather, especially from flowering to physiological maturity stage, Favors the infection. \n\nThe fungus sporulates heavily at the temperature range of 23 to 27°C; rainfall 15 days before harvest Favors infection and colour development; longer flowering periods and shortened photoperiods also Favor the disease.
 
 
     </string>
 
-<string name="CercosporaBlight2">
+    <string name="CercosporaBlight2">
 1. On seed and seedling:- Infected seeds may have pink to light purple to dark purple areas ranging from small specks to large blotches covering the whole surface. \n\nGermination of infected seeds becomes low. \n\nUpon germination, shriveled and discolored cotyledons are produced which fall prematurely. \n\nResulted seedlings may die within a few days.\n\n2. On well-grown plants:- At or after the full pod stage, reddish-brown to purple, angular to irregular lesions ranging from tiny spots to large irregular blotches appear on leaves. They may coalesce to form large necrotic areas. Sometimes, upper leaves appear light purple, leathery, and dark. \n\nBlighting of younger upper leaves over large areas is the striking symptom of the disease. \n\nNumerous infections cause rapid chlorosis and necrosis of leaf tissues. \n\nVeinal necrosis, defoliation from upper young leaves along with early senescence of the plant is also very common.
 
 
     </string>
 
-<string name="CercosporaBlight3">
+    <string name="CercosporaBlight3">
 
 Use of clean and certified seeds. \n\nCultivation of less susceptible varieties like JS 80-21 and Bragg, etc. \n\nSeed treatment with thiram + carbendazim (2:1) or captan @ 0.3% and subsequent spray of benomyl @ 0.1% or thiophanate methyl @ 0.05% over infected crop.
     </string>
 
-<string name="FrogeyeLeafSpot1">
+    <string name="FrogeyeLeafSpot1">
 Causal Organism:- Cercospora sojina Hara.\n\nThe pathogen is seed as well as airborne.\n\nIt affects stems, foliage, pods, and seeds; most prevalent in Uttaranchal, Himachal Pradesh, Madhya Pradesh, and N.E. States.\n\nUnder congenial conditions, it can cause around 22% yield losses.\n\nDisease is favoured by warm and wet conditions and appears in severe proportions in seasons with frequent rainfall.
 
 
     </string>
 
-<string name="FrogeyeLeafSpot2">
+    <string name="FrogeyeLeafSpot2">
 
 1. On seed and seedling:- Light to dark Gray or brown areas varying from specks to large blotches appear on seed. Sometimes cracks or flakes occur in the seed coat. \n\nGermination is reduced, and infected seeds produce weak stunted seedlings with brown lesions on the cotyledons.\n\n2. On well-grown plant:- First symptoms normally appear at the time of flowering or two months after planting. \n\nGreyish-green water-soaked spots which turn to small light brown circular to angular spots appear on leaves and other aerial parts. These spots later become ashy Gray from the centre with a purplish to dark brown margin. \n\nAbsence of yellowing around the spot is a distinguishing symptom.
 
     </string>
-<string name="FrogeyeLeafSpot3">
+    <string name="FrogeyeLeafSpot3">
 
 Removal and burning of crop debris. \n\nUse of clean and certified seed and moderately resistant varieties like Bragg, JS 80-21, KHSb 2, VLS 21, etc.\n\nSeed treatment with thiram + carbendazim (2:1) @ 0.3%. \n\nSpray of carbendazim or thiophanate methyl @ 0.05% or zineb or ziram (0.2%) over the infected crop.
     </string>
 
-<string name="Phomopsis1">
+    <string name="Phomopsis1">
 Causal Organism:-  Diaporthe phaseolorum (Cke. and Ell.) Sacc. var. sojae (Lehman) and Phomopsis longicola are two fungi involved in Pod and stem blight disease, while another species, D. phaseolorum var. caulivora, is commonly associated with soybean seed decay and stem canker. However, in India, only Diaporthe phaseolorum var. sojae is known to occur. \n\nThe pathogen is seed and soil borne. \n\nIt affects stems, leaf blades (less frequently), petioles, pods, and seeds. \n\nIt is found to occur commonly in the states of M.P., Uttaranchal, Punjab, Himachal Pradesh, and Rajasthan. \n\nSoybean maturing under warm and humid conditions may be severely damaged.
 
     </string>
-<string name="Phomopsis2">
+    <string name="Phomopsis2">
 1. On seedling:- Heavily infected seeds crack badly, shrivel, and remain covered with dirty white mycelium. \n\nSeedlings emerging from infected seeds have the seed coat attached to cotyledons, preventing proper opening of the cotyledons. \n\nBright red to brown lesions is also produced on cotyledons, which may result in seedling blight. \n\n2. On well-grown plant: A characteristic symptom is the arrangement of black speck-sized pycnidia linearly with a light brown to whitish background on infected petioles of abscised leaves, broken branches, stems, and pods, later in the season. \n\nUnder favourable conditions, infection may appear as premature death of etiolated branches, shedding of leaves, and undeveloped pods. Pod blight results in mouldy and light seeds.
 
     </string>
-<string name="Phomopsis3">
+    <string name="Phomopsis3">
 Ploughing down crop residues. \n\nUsing healthy seed and crop rotation technique. \n\nUse of moderately resistant varieties viz. Bragg, KHSb 2, Himso 1563, JS 71-05, JS 80-21, NRC 37, PK 262, VLS 2, etc. \n\nSeed treatment with thiram + carbendazim (2:1) @ 3 g/kg. \n\nMaintenance of adequate potash in the field minimizes the chances of seeds becoming mouldy. \n\nSpray of benomyl or thiophanate methyl @ 0.1%.
 
     </string>
 
-<string name="PodRot1">
+    <string name="PodRot1">
 Causal Organism:- Fusarium equiseti (Corda) Sacc. is the major and commonly occurring causal organism of Fusarium pod and collar rot in India. The pathogen is soil and seed borne. (Fusarium oxysporum producing blight, wilt, and root rot, F. graminearum, F. noniliforme, and F. solani causing pod and collar rot are also reported from India). \n\nFusarium in combination with other soil and seed borne pathogens causes seed and seedling rots. \n\nIt affects collar (stems), pods, and seeds. \n\nThe disease is commonly occurring in the states of Madhya Pradesh, Uttaranchal, Delhi, etc. \n\nIt can cause up to 64% loss in yield. \n\nCool temperature and water-saturated soil Favor the infection.
 
     </string>
 
-<string name="PodRot2">
+    <string name="PodRot2">
 1. On seed and Seedling:- Sometimes seed coat and cotyledons of the seeds may turn dark brown to black. \n\nDepressed, water-soaked, cream-colored, and serrated lesions on cotyledons and hypocotyl of emerging or emerged seedlings. Later, these lesions turn dark brown to black and coalesce with each other. \n\nHypocotyls become thin and soft, and roots remain underdeveloped. \n\n2. On well-grown plant:- Pods dry prematurely from tip to base and become dark brown to black. \n\nSeverely infected pods produce no seeds.
 
     </string>
 
-<string name="PodRot3">
+    <string name="PodRot3">
 No effective chemical control is available. \n\nFields should be well drained. \n\nDelay in sowing until soil moisture is adequate helps in escaping the disease.
 
     </string>
 
-<string name="Myrothecium1">
+    <string name="Myrothecium1">
         Causal Organism: Myrothecium roridum Tode ex Fries. \n\nThe pathogen is predominantly air-borne and also seed-borne. \n\nIt affects leaves and pods. \n\nThe disease is distributed throughout the soybean growing area of India but is more prominent in Madhya Pradesh. \n\nWhen it appears early, the disease can cause 20 to 40% loss in yield under favourable conditions. \n\nWarm and humid weather Favors the disease.
 
     </string>
 
-<string name="Myrothecium2">
+    <string name="Myrothecium2">
 1. On seed and seedling:- Infected seeds, when sown, cause seed rot and blight of emerged seedlings. \n\n2. On well-grown plant:- Disease is visible around 30 to 35 days after planting as small round brown spots on leaves. Later, these spots become dark with a dark brown or purple margin surrounded by a translucent area in concentric rings. \n\nSlowly, spots merge with each other and become of irregular shape.\n\nOn maturity, sporodochia are visible as white erumpent structures on the translucent zone of the spots, which later turn into black dot-like structures. This is the characteristic symptom of the disease.\n\nMany times, leaves develop necrotic centers in the spots, which fall down imparting a "shot hole" effect.
 
     </string>
 
-<string name="Myrothecium3">
+    <string name="Myrothecium3">
 Use of healthy and certified seed. \n\nCultivation of resistant/moderately resistant varieties like Bragg, JS 71-05, JS 335, MACS 13, MACS 124, MAUS 47, NRC 7, PK 564, etc. \n\nSeed treatment with thiram + carbendazim (2:1) @ 3 g per kg followed by a spray of carbendazim or thiophanate methyl (0.05% to 0.1% or 400 to 800 g/ha) or mancozeb (0.25% or 2 kg/ha). The first spray at 35 DAS (Days After Sowing) is very effective.
 
     </string>
 
-<string name="AerialBlight1">
+    <string name="AerialBlight1">
 Causal Organism:- The disease is incited by Rhizoctonia solani Kuhn., whose teleomorph is Thanatephorus cucumeris. \n\nThe pathogen is seed, soil, and air-borne. \n\nIt affects roots, lower stems (just below soil line in seedlings as well as in mature plants), stems, leaves, petioles, and pods. \n\nDistributed throughout India but more severe in the states of Madhya Pradesh and Uttaranchal. \n\nIt can cause up to 35% loss in yield on account of pre and post-emergence damping off, root rot, seedling blight, and blight in well-grown plants resulting in fewer number of pods and seeds per pod. \n\nA temperature range of 24 to 32°C and continued wet soil conditions with soil moisture at 30-60 percent of water holding capacity is favorable for root rot phase, whereas soil moisture of about 70 percent of water holding capacity, sandy and light soils, and pH greater than 6.6 favor seedling blight phase. \n\nRain or free moisture on plant surfaces with warm, wet, or humid weather is very important for the development of foliar blight.
 
     </string>
 
-<string name="AerialBlight2">
+    <string name="AerialBlight2">
 1. On seed and seedling:- Infected seeds have irregularly shaped tan or light brown sunken lesions. \n\nSeedlings with infected shoot apices stop growing and become stunted; cotyledons remain green. \n\nReddish-brown sunken lesions on roots and basal portion of the stems just above the soil line, which are often surrounded by brown mycelial growth. \n\nBesides causing pre-emergence mortality, seedlings may die later on as the lower part of the taproot and the secondary root system are usually killed. \n\n2. On well-grown plant:- Small or large initially water-soaked and then grayish-brown to reddish-brown spots, which later turn dark brown, appear first on lower leaves. Later, the entire leaf gets blighted in due course. \n\nRoot rot of adult plant in the form of brown to dark brown discoloration of the cortical and lignified tissues is also common, which is most evident during flowering. \n\nDevelopment of a reddish-brown canker around the base of the stem, easy peeling off cortical tissues of the root, and drooping of leaves which remain attached to the dead plant are the other characteristics of this disease. \n\nSubsequently, at times patches of dead or dried plants are visible in the field. \n\nUnder high rainfall or high humid conditions, a web-like mycelium growth of the fungus forms on the leaves and in between the closely spaced infected plants.
     </string>
-<string name="AerialBlight3">
+    <string name="AerialBlight3">
 Cultivation of moderately disease-resistant/tolerant varieties like PK 262, PK 416, PK 472, PK 1042, PK 564, SL 295, etc., especially for aerial blight. \n\nAvoidance of excess plant population. \n\nSeed treatment with thiram + carbendazim (2:1) @ 3 g/kg or with captan @ 3 - 4g/kg. \n\nOne spray of carbendazim or thiophanate methyl (0.05%) or mancozeb (0.25%) is found very effective.
 
     </string>
 
-<string name="BrownSpot1">
+    <string name="BrownSpot1">
 Causal Organism:- Septoria glycine’s Hemmi. \n\nThe pathogen is seed and air borne. \n\nIt affects Stems, Leaves, pods and seeds. \n\nIn India, the disease is commonly occurring in the states of Himachal Pradesh, Uttaranchal, Madhya Pradesh and North Eastern States. \n\nIt can cause 8-15% yield loss. \n\nWarm and humid weather is favourable for the disease. Temperature range of 15-30 °C (optimum is 25 °C) is favourable for the disease development.
 
     </string>
 
-<string name="BrownSpot2">
+    <string name="BrownSpot2">
 1. On seed and seedling:- The symptoms of the disease are visible as brown minute spots at 30 to 35 days after sowing on the unifoliate leaves of the seedlings. \n\n2. On well-grown plant:- At pod fill stage, irregular dark brown lesions 1 to 4 mm in diameter appear on both the surfaces of unifoliate as well as trifoliate leaves. \n\nThese lesions gradually darken until they become chocolate brown to blackish brown.Late in the growing season, leaves become rusty brown. \n\nAs the plant approaches maturity, premature defoliation takes place. Rapid and almost yellowing of leaves is characteristic of this disease.
 
     </string>
 
-<string name="BrownSpot3">
+    <string name="BrownSpot3">
 Crop rotation with non-legume crop. \n\nBurial or burning of infected crop residues during the season and after harvest. \n\nUse of healthy seeds of improved varieties. \n\nEffective control can be achieved by spray of carbendazim or thiophanate methyl (0.05%) or mancozeb (0.25%) from bloom to pod fill stage.
     </string>
 
-<string name="Phyllosticta1">
+    <string name="Phyllosticta1">
 Causal Organism:- The disease is caused by Phyllosticta sojicola Massal or P. glycinea Tehon and Daniels.\n\nThe pathogen is seed and air borne.\n\nIt affects stems, leaves, petioles, and pods.\n\nIn India, the disease is common in Delhi, Madhya Pradesh, Uttar Pradesh, Uttaranchal, and Rajasthan.\n\nDisease is considered of minor economic importance. The major share of loss is caused by severe defoliation.\n\nCool and moist weather is favorable for the disease.
     </string>
 
-<string name="Phyllosticta2">
+    <string name="Phyllosticta2">
 1. On seed and seedling:- Seeds may develop brown specks or spots and become small and shriveled.\n\n2. On well-grown plant:- Pale green to dull gray small, round, oval to irregular spots with a narrow dark brown or purplish border appear on the margin of leaf lamina of younger leaves. Usually, only the first few trifoliate leaves are affected.\n\nThese gradually coalesce, enlarge, and progress inwards to form an irregular V-shaped area turning brown to dark brown in color.\n\nWhen the spots grow older, numerous small black specks (pycnidia) form in older leaves.\n\nSevere defoliation can also occur. The fungus may progress to stem, stipules, and petiole as superficial grey to almost white lesions with a narrow purplish to brown border.
 
     </string>
 
-<string name="Phyllosticta3">
+    <string name="Phyllosticta3">
 Crop rotation with non-legume crop.\n\nUse of disease-free and clean seed.\n\nDeep ploughing to bury crop residues.\n\naSpray of carbendazim or thiophanate methyl (0.05%) at the time of appearance of the disease.
 
 
 </string>
 
-<string name="Choanephora1">
+    <string name="Choanephora1">
 Causal Organism: Choanephora infundibulifera (Currey) Sacc.\n\nThe pathogen is air borne.\n\nIt affects leaves.\n\nIn India, it is common in Delhi, M.P. (Madhya Pradesh), and Rajasthan.\n\nDisease is reported to cause 5 to 14% losses in yield.\n\nDisease is favored by cool weather coupled with high relative humidity close to saturation point.
 
     </string>
 
-<string name="Choanephora2">
+    <string name="Choanephora2">
 On well-grown plant:- Symptoms appear 2-3 days after continued rain on mature leaves and occasionally on younger leaves at the top of the plant.\n\nInfected area appears grayish, similar to scald or chemical injury, on distal halves of infected leaves, which later turns dark.\n\nPods may also be infected and extensive defoliation can also occur.\n\nUnder extended periods of high humidity and cool weather, sporangiophores and sporangia can be seen by the unaided eye early in the morning on the infected area of leaves.
 
     </string>
 
-<string name="Choanephora3">
+    <string name="Choanephora3">
 Burning of infected plant parts to prevent secondary spread of the disease.\n\nSpray of copper oxychloride @ 0.2% or carbendazim (0.05%) over the affected crop.
     </string>
 
-<string name="Aristastoma1">
+    <string name="Aristastoma1">
 Causal Organism:- Aristastoma guttulosum and camarographioides are the pathogens responsible for this disease.\n\nIt affects leaves.
 
     </string>
 
-<string name="Aristastoma2">
+    <string name="Aristastoma2">
 On well-grown plant:- Irregular 2 to 22 mm in diameter spots limited at margin by vein with indistinct edge, and more or less clear, alternating, narrow light and dark brown areas appear on the leaves.\n\nChlorotic halos are sometimes present.\n\nDiffuse chlorosis on the lower surface is the distinct symptom.\n\nPlants generally remain stunted.
 
     </string>
 
-<string name="Aristastoma3">
+    <string name="Aristastoma3">
 No information is available on the management of the disease.
     </string>
 
-<string name="Powdery1">
+    <string name="Powdery1">
 Causal Organism:- Microsphaera diffusa Cke. and Pk. (syns. Erysiphe polygoni DC., E. glycines Tai,).\n\nIt affects predominantly on leaves but can also appear on cotyledons, stems, and pods.\n\nIn India, it is common in Madhya Pradesh, Rajasthan, Maharashtra, Karnataka, and North Eastern States.\n\nLosses ranging from 10 to 35% are reported.\n\nA temperature range of 18-24°C is favorable for disease development, whereas at 30°C it is arrested.
 
     </string>
 
-<string name="Powdery2">
+    <string name="Powdery2">
 On well-grown plants:- White powdery patches/lesions form on stems, leaves, and pods, and in severe conditions, all above-ground parts are covered with a white powdery mass containing mycelia and conidia, making the crop appear as if it has been sprayed with a light violet-white powder.\n\nSometimes different symptoms like chlorosis, necrosis, green and yellow islands, and crinkling may develop on leaves, and the fungus grows luxuriantly without producing visible symptoms.
 
     </string>
 
-<string name="Powdery3">
+    <string name="Powdery3">
 Use resistant varieties like PK 472.\n\nSpray of dinocap (Karathane etc.) or carbendazim @ 0.1% at the appearance of disease.
 
     </string>
 
-<string name="Target1">
+    <string name="Target1">
 Causal Organism:- Corynespora cassiicola (Berk. and Curt.) Wei.\n\nThe pathogen is seed, soil, and air borne.\n\nIt affects roots (not common in India), stems, leaves, pods, and seeds.\n\nThe disease is very common and severe in the states of Himachal Pradesh but is also present in Madhya Pradesh.\n\nThe disease can cause yield loss ranging from 18 to 32%.\n\nIn temperate regions, the pathogen grows best at a temperature range of 18-20°C, whereas in warmer regions, it prefers a temperature of around 28°C.
 
     </string>
 
-<string name="Target2">
+    <string name="Target2">
 1. On seed and seedling:- Small brown-blackish lesions are produced on seeds.\n\nStems and roots are infected in the early seedling stage, and underground symptoms can be seen as early as three days after emergence.\n\n2. On well-grown plant:- Infection in leaves initiates with the appearance of minute, chlorotic or reddish-brown spots with a yellow halo.\n\nLater on, the spots increase in size, becoming round to irregular in shape with a dark brown center, a lighter brown ring, and a thick dark brown border with or without a yellow halo, resembling a shooting target.\n\nSpread of the disease is very quick upwards in the same plant and in neighboring plants under conditions of high humidity, ultimately resulting in severe defoliation before full pod development.\n\nSymptoms on petioles and stems start as small, dark brown, water-soaked spots which later lead to lighter brown lesions followed by stem rot.\n\nPod spots are generally circular with slightly depressed, purple-black centers and brown margins. Under extended rainfall or high humidity, spots coalesce and cover the whole pod and also infect the seeds.
 
     </string>
 
-<string name="Target3">
+    <string name="Target3">
 Burning of infected plant parts to prevent secondary spread of the disease.\n\nCultivation of moderately resistant varieties like JS 335, JS 72-44, PK 1024, Pb 1, MAUS 71,DSb 5 etc.\n\nSpray of carbendazim or thiophanate methyl (0.05%).
 
     </string>
 
-<string name="SoybeanMosaic1">
+    <string name="SoybeanMosaic1">
 Causal Organism:- Soybean mosaic virus causes the disease.\n\nThe virus is a flexuous rod belonging to the potyvirus group and is seed, graft, and sap transmitted.\n\nDisease has a narrow host range and is transmitted in a non-persistent manner by about 32 aphid species belonging to 15 different genera.\n\nIt affects seedlings, leaves, stems, petioles, pods, and seeds.\n\nThe disease is occurring all over the soybean growing areas of India.\n\nIt can reduce yields ranging from 50 to 93%. Losses ranging from 2-30% have been reported from Delhi.\n\nSymptoms are more severe with cool temperatures (near 18°C) and humid conditions but less severe at 24-25°C, while symptoms are masked above 30°C.
 
     </string>
 
-<string name="SoybeanMosaic2">
+    <string name="SoybeanMosaic2">
 1. On seed and seedling:- Infected seeds often get mottled, having the same colour on the seed coat as that of the hilum, which is popularly known as hilum bleeding.\n\nWhen infected seeds are used for sowing, the initial symptoms of the disease are severe mosaic of dark and light green areas and downward curling of primary leaves, giving seedlings a spindly appearance.\n\nSuch plants have rugose, crinkled, mottled, and curled unifoliate leaves.\n\nSubsequently, trifoliate leaves become chlorotic, severely stunted, mottled, and rugose.\n\nPlants get stunted with shortened petioles and internodes.\n\n2. On well-grown plant:- Trifoliate leaves have a mosaic of light and dark green areas that may later become raised or blistered mostly along the main veins. Dark green enations along the puckered leaves and necrosis are also occasionally present.\n\nBrowning may also be visible in stems and petioles.\n\nNecrosis, leaf yellowing, terminal necrosis, and defoliation at times lead to the death of the plant.
 
     </string>
 
-<string name="SoybeanMosaic3">
+    <string name="SoybeanMosaic3">
 Pre sowing soil application of phorate @ 10kg/ha.\n\nUse of moderately resistant varieties like JS 71-05, KHSb 2, LSb 1, MACS 58, MACS 124,PK 416, PK 564, Punjab 1, VLS 2 etc.\n\nCultivation of 2 to 3 or more varieties and change of varieties at least after every two years.\n\nTwo foliar sprays of thiamethoxam 25 WG 100 g/ or methyl demeton 800ml/ha at 30 and 45 days after sowing\n\nWeed free clean cultivation.
     </string>
 
-<string name="YellowMosaic1">
+    <string name="YellowMosaic1">
 Causal Organism:- The incitant of the disease is Mung bean yellow mosaic virus.\n\nIt is a gemini virus recently named genus Begomovirus.\n\nThe virus is not seed-borne and is transmitted predominantly by whiteflies Bemisia tabaci and B. gossypiperda, and also by aphids and pollen.\n\nDisease produces symptoms only on leaves.\n\nThe disease is more common and severe in the Kangra region of Himachal Pradesh, tarai region of Uttaranchal, plains of Delhi, Punjab, and Haryana, and parts of Madhya Pradesh and Uttar Pradesh.\n\nIt can cause yield loss ranging from 5-90%.
 
     </string>
 
-<string name="YellowMosaic2">
+    <string name="YellowMosaic2">
 1. On seed and seedling:- Symptoms can be seen in seedlings within 15 days of germination as small yellow diffused patches which later on coalesce to make the leaf more or less completely yellow.\n\n2 . On well-grown plant:-Symptoms of the disease appear in the form of conspicuous yellowing along small veins of the leaves followed by severe yellow mosaic and mottling of leaves, which is a diagnostic symptom.\n\nYellowing is either scattered or produced in indefinite bands along the major veins.\n\nRusty necrotic spots appear in the yellow areas as the leaves mature.\n\nSometimes, growth of mold can be seen in the infected leaf areas.
 
     </string>
 
-<string name="YellowMosaic3">
+    <string name="YellowMosaic3">
 Pre-sowing soil application of phorate @ 10kg/ha.\n\nUse of resistant varieties like PK 416, PK 472, PS 564, PK 1024, PK 1029, PK 1042, Pusa 37, SL 295, SL 525 etc.\n\nCultivation of 2 to 3 or more varieties and change of varieties at least after every two years.\n\nRoguing of infected plants and plant parts.\n\nWeed-free cultivation.\n\nSeed treatment with thiamethoxam 70 WS @ 3g/kg seed in hotspot areas and spray of thiamethoxam 25 WG @ 100 g or methyldematon 25EC @ 0.8 lit/ha or ethofenprox 10 EC @ 1.0 lit/ha.
 
     </string>
 
-<string name="IndianBud1">
+    <string name="IndianBud1">
 Causal Organism:- In India, the causal pathogen is identified as Peanut Bud Necrosis Virus, whereas in other countries it is Tobacco Ring Spot Virus (TRSV). The virus has been described as pleiomorphic and an unstable myxovirus.\n\nIt affects Leaves, buds (especially terminal bud), stems, petioles and pods.\n\nThe disease is widespread all over India. It remained serious at Parbhani in Maharashtra and in Karnataka in 1986 and reached epidemiological proportions in Sehore (Madhya Pradesh) in 1987.\n\nHeavy incidences are also reported from Kota, Delhi, Raipur, and Indore (1989 onwards).\n\nThis is a very serious disease as it can result in 100% loss. Yield losses of 70-80% from Sehore, 66% in Karnataka, and 12% in Delhi have been reported.\n\nThe disease is more severe at lower temperatures.
 
     </string>
 
-<string name="IndianBud2">
+    <string name="IndianBud2">
 On well-grown plants:- The most striking symptom is the browning and curving of the terminal bud, forming a crook.\n\nSubsequently, other buds become brown, necrotic, and brittle.\n\nNecrosis of veins, midrib, petiole, and stem is also common. Petioles are often thickened and shortened, and they may be curved, distorting the shoot tips.\n\nSometimes, the petioles become so brittle that they break when pressed with fingers.\n\nLeaflets are dwarfed and tend to cup or roll, and the leaf blades become rugosed and bronzed.\n\nIf the infection occurs early, plants become severely stunted with shortened internodal length and multiple auxiliary shoots.\n\nPods either do not form or remain severely underdeveloped or aborted.
 
     </string>
 
-<string name="IndianBud3">
+    <string name="IndianBud3">
 Currently, no resistant varieties or effective chemical controls are available for this disease. However, the following measures can help reduce the severity of the disease and minimize yield loss.\n\nCultivate less susceptible varieties such as JS 71-05, JS 79-81, KHSb 1, etc.\n\nKeep the crop free from broad-leaved weeds.\n\nRemove and burn plants or plant parts showing disease symptoms.\n\nTreat seeds with Imidacloprid at 5 g/kg and spray with systemic insecticides like Nuvacron (0.01%) or Rogor (0.01%).
 
     </string>
 
-<string name="Phyllody1">
+    <string name="Phyllody1">
 Causal Organism:-  Phytoplasma.\n\nThe causal agent is Phytoplasma usually transmitted by leaf hoppers.\n\nIt affects Flower buds, flower, stems, pods and seeds.\n\nDisease is wide spread but more common in Madhya Pradesh.\n\nDisease can results in 20-30% loss in yield.
 
     </string>
 
-<string name="Phyllody2">
+    <string name="Phyllody2">
 0n well grown plant:- Symptoms generally appear either at the time of flowering or beginning of pod formation.\n\nInfected plants may have excessive branching , stem with short internodes, stunted growth and profuse bud proliferation.\n\nFloral organs of such plants transform into leaf-like structures known as phyllody.\n\nPlants may bear pods or pods are scanty with no seed or small wrinkled seed.\n\nDelayed senescence as plant such plants remain green fore more time than the healthy ones.\n\nPremature green pods express in-situ seed germination.
 
     </string>
 
-<string name="Phyllody3">
+    <string name="Phyllody3">
 Sprays of chlorpyrifos 1.5 lit. or triazophos 800 ml or methomyl 1 kg or ethion 1.5 lit. or quinalphos 1.5 lit. or ethofenprox 1 lit./ha at 18-20 and at 28-30 days after sowing (spray solution required is 800 lit/ha) for hot spot areas. In other areas one spray at 28-30 days after sowing.\n\nThe other recommended package of practices as mentioned below should also be followed:\n\n1. Soil application of Phorate 10 G @ 1 kg a.i./ha at the time of planting.\n\n2. Seeds from affected fields are not to be used for sowing purpose.\n\n3. Use of optimum seed rates (65 to 80 kg/ha for small and bold seeded varieties respectively) to avoid the high plant population, which acts as predisposing factor for insect incidence.\n\n4. If possible, avoid cultivation of crops such as sun-hemp and sesame.
     </string>
 
-<string name="BedFurrow1">
+    <string name="BedFurrow1">
 The BBF machine has a facility to adjust desired depth of sowing. This is multipurpose machine which can be used for both kharif and rabi crops simply by adding or removing the furrow openers.\n\nBBF machine can form channels in alluvial soils with 30 to 35PTO HP tractors.\n\nThis machine has a provision to adjust desired row to row distance.\n\nBBF machine facilitates irrigation through channels easily as and when desired.\n\nThe BBF machine can be used to weed the beds with the help of tractor with thin tyres by using the sweeps which are provided as an additional option.\n\nAdditional 5 tines are provided with the machine for use in rabi crops.\n\nThe machine is quite sturdy and has been designed to have minimum breakdown.
 
     </string>
 
-<string name="BedFurrow2">
+    <string name="BedFurrow2">
 The machine presently costs Rs. 58, 035 which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer.
 
     </string>
 
-<string name="BedFurrow3">
+    <string name="BedFurrow3">
 Order and payment for BBF machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
 
-<string name="FurrowIrrigated1">
+    <string name="FurrowIrrigated1">
 The FIRBS machine has a facility to adjust desired depth of sowing.\n\nThis is multipurpose machine which can be used for both kharif and rabi crops simply by adding or removing the furrow openers.\n\nFIRBS machine can form channels in alluvial soils with 35 to 40 PTO HP tractors.\n\nThis machine has a provision to adjust desired row to row distance.\n\nFIRBS machine facilitates irrigation through channels easily as and when desired.\n\nCrop sown with FIRBS machine has a facility to drain out water in heavy down pour situation with in short period of time throughthe furrows.\n\nFIRBS machine helps to store rain water in the field channels and prevent runoff unlike flat bed sown field.The FIRBS machine frame can be used to remove weed from the beds with the help of tractor with thin tyres by using the sweeps which are provided as an additional option.\n\nAdditional 3 tines are provided with themachine for use in rabi crops.\n\nThe machine is quite sturdy and has been designed to have minimum breakdown.
 
     </string>
 
-<string name="FurrowIrrigated2">
+    <string name="FurrowIrrigated2">
 The machine presently costs Rs. 54, 860 which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer.
 
     </string>
 
-<string name="FurrowIrrigated3">
+    <string name="FurrowIrrigated3">
 Order and payment for FIRBS machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
 
-<string name="Subsoiler1">
+    <string name="Subsoiler1">
 The subsoiler has a facility to adjust desired depth of sub soiling as per requirement. It has provision to adjust maximum depth of 2.5feet in vertosols and can penetrate into heavy clay soils also.\n\nThis is multipurpose machine which can be used for both rabi and kharif crops simply by adding or removing the furrow openers.\n\nSubsoiler can form narrow deep furrows in vertosols.\n\nSubsoiler facilitates percolation of rain water.\n\nSubsoiler helps to store rain water in the field channel and prevent runoff unlike flatbed sown field.\n\nThe subsoiler frame can be used to remove deep rooted weeds.\n\nThe machine can break the hard pan formed due to any reason. The machine is quite sturdy and parts have peen designed to prevent breakdown in vertosols.\n\nThe subsoiler is designed to lift soil from the bottom.\n\nIt can be used to drain out subsoil excess water.
 
     </string>
 
-<string name="Subsoiler2">
+    <string name="Subsoiler2">
 The machine presently costs Rs. 67,200 which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer.
 
     </string>
 
-<string name="Subsoiler3">
+    <string name="Subsoiler3">
 Order and payment for Subsoiler machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
 
-<string name="SeedDrill1">
+    <string name="SeedDrill1">
 The sweep seed drill has a facility to sow and simultaneously do weeding cum tillage operation.\n\nThe machine is specially devised to use it for both kharif and rabi crops.\n\nThe machine has a provision to maintain row to row distance.\n\nRows in the seed drill are adjustable.\n\nSweep seed drill facilitates prevention of inundation from rain water.\n\nCrop sown with seed drill has a facility to drain out water from the soil.\n\nSweep seed drill helps to store rain water in the field channel and prevention run off unlike flat bed sown field.\n\nThe sweep seed drill pushes the soil towards the sowing furrow thus forming slope between the soybean and shallow channel.\n\nThis machine can also control sowing depth.The machine is quite sturdy and all parts have been designed to have no breakdown.
 
     </string>
 
-<string name="SeedDrill2">
+    <string name="SeedDrill2">
 The machine presently costs Rs.50,000 which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer.
 
     </string>
 
-<string name="SeedDrill3">
+    <string name="SeedDrill3">
 Order and payment for Sweep Drill machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
 
-<string name="RidgeFertilizer1">
+    <string name="RidgeFertilizer1">
         The Ridge fertilizer drill cum seed planter machine has an ability to adjust desired depth of basal doze fertilizer.\n\nThe Ridge fertilizer drill cum seed planter machine has an ability to adjust desired depth of soybean seeds for sowing.\n\nfertilizer drill cum seed planter machine can be operating with 55 PTO HP tractors.\n\nThis machine has a provision to adjust desired row to row distance.\n\nThis machine also facilitates irrigation through channels easily as and when desired.\n\nThe machine has additional channel opener wings which are provided as an additional option for increasing/decreasing with of the channels and height of the ridges.\n\nThe machine has ridge stabilizer at the rear end of the frame.\n\nThe Ridge fertilizer drill cum seed planter machine has a facility to change the seed dropping roller as per the size of the seed.
 
     </string>
 
-<string name="RidgeFertilizer2">
+    <string name="RidgeFertilizer2">
 The machine presently costs Rs. 69,100 (04 bottom) Rs.74,800 (05 bottom) which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer. Which is to be borne by buyer.
 
     </string>
 
-<string name="RidgeFertilizer3">
+    <string name="RidgeFertilizer3">
 Order and payment for Ridge Fertilizer Drill Cum Seed Planter machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
 
-<string name="SingleRidge1">
+    <string name="SingleRidge1">
 A Ridge seed planter has been developed for soybean crop, which is capable of placing the soybean seeds at desired depth on the ridge formed.\n\nPlacement of seed on the formed ridge increases moisture use efficiency benefitting the crop.\n\nThis machine is useful for moisture stress management in Vertosols due to variations in rainfall. Ridge seed planter machine has been commercialized.\n\nThis land configuration technique helps to drain out excessive rainwater and can also facilitate irrigation with ease as and when needed.
 
     </string>
 
-<string name="SingleRidge2">
+    <string name="SingleRidge2">
 The machine presently costs Rs. 62,250 which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer.
 
     </string>
 
-<string name="SingleRidge3">
+    <string name="SingleRidge3">
 Order and payment for Single Ridge Seed Planter machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
 
-<string name="SoybeanSeedDrill1">
+    <string name="SoybeanSeedDrill1">
 It is a unique machine with provisions for drilling the seeds and also to plant the seeds ie. to maintain seed to seed distance.\n\nEither of the two options can be used just by shifting the plastic pipe from one hole to another.\n\nThis is a machine which helps farmer to drill or plant the soybean seeds and also other crops with proper adjustment.\n\nThis unique machine can perform both drilling and planting operations.
     </string>
 
-<string name="SoybeanSeedDrill2">
+    <string name="SoybeanSeedDrill2">
 The machine presently costs Rs. 67,200 which is likely to be revised as and when needed. This excludes the cost of transport which is to be borne by buyer.
 
     </string>
 
-<string name="SoybeanSeedDrill3">
+    <string name="SoybeanSeedDrill3">
 Order and payment for Soybean Seed Drill Cum Planter (two in one) machine is to be made to Director, DSR, Khandwa Road, Indore 452001, M.P.
     </string>
-<string name="about_soybean_gyan">Soybean Gyan is designed and developed by Indian Institute of Soybean Research, Indore to provide all the necessary farming information to farmers. The purpose of this application is to share agricultural-based new innovations and research with farmers.</string>
 
-    </resources>
+    <string name="about_this_app">About this App</string>
+    <string name="advice_for_soybean_farmers">Advice for Soybean Farmers</string>
+    <string name="contact_icar">Contact ICAR</string>
+
+    <string name="soil_requirement">मुख्य</string>
+
+    <string name="tillage">Tillage</string>
+    <string name="selection_of_varieties">Selection of Varieties</string>
+    <string name="seed_treatment_inoculation"><![CDATA[Seed Treatment & Inoculation]]></string>
+    <string name="sowing_time_spacing_seed_rate"><![CDATA[Sowing Time, Spacing & Seed Rate]]></string>
+    <string name="manures_fertilizers"><![CDATA[Manures & Fertilizers]]></string>
+    <string name="intercropping_in_soybean">Intercropping in Soybean</string>
+    <string name="water_management">Water Management</string>
+    <string name="harvesting_threshing"><![CDATA[Harvesting & Threshing]]></string>
+    <string name="blue_beetle">Blue Beetle</string>
+    <string name="bihar_hairy_caterpillar">Bihar Hairy Caterpillar</string>
+    <string name="girdle_beetle">Girdle Beetle</string>
+    <string name="gram_pod_borer">Gram Pod Borer</string>
+    <string name="green_stink_bug">Green Stink Bug</string>
+    <string name="green_semiloopers">Green Semiloopers</string>
+    <string name="leaf_folder">Leaf Folder</string>
+    <string name="leaf_miner">Leaf Miner</string>
+    <string name="stem_fly">Stem Fly</string>
+    <string name="tobacco_caterpillar">Tobacco Caterpillar</string>
+    <string name="white_fly">White Fly</string>
+    <string name="white_grub">White Grub</string>
+    <string name="brown_stripped_semilooper">Brown Stripped Semilooper</string>
+    <string name="bacterial_diseases">Bacterial Diseases</string>
+    <string name="fungal_diseases">Fungal Diseases</string>
+    <string name="viral_diseases">Viral Diseases</string>
+    <string name="disease_management">Disease\nManagement</string>
+    <string name="insect_management">Insect\nManagement</string>
+    <string name="crop_management">Crop\nManagement</string>
+    <string name="weed_management">Weed\nManagement</string>
+    <string name="losses_due_to_weed">Losses Due to Weed</string>
+    <string name="weed_management_practices">Weed Management Practices</string>
+    <string name="general_precautions">General Precautions</string>
+    <string name="types_of_weed">Types of Weed</string>
+    <string name="recommended_herbicides">Recommended Herbicides</string>
+    <string name="soyfood_recipe">Soyfood\nRecipe</string>
+    <string name="soy_nuts">Soy Nuts</string>
+    <string name="soy_milk">Soy Milk</string>
+    <string name="soy_curd">Soy Curd</string>
+    <string name="soy_flour">Soy Flour</string>
+    <string name="soy_chakli">Soy Chakli</string>
+    <string name="soy_mathari">Soy Mathari</string>
+    <string name="soy_laddo">Soy Laddo</string>
+    <string name="soy_nankhatai">Soy Nankhatai</string>
+    <string name="soy_upma">Soy Upma</string>
+    <string name="soy_halwa">Soy Halwa</string>
+    <string name="soy_pakora">Soy Pakora</string>
+    <string name="farm_machinery">Farm\nMachinery</string>
+    <string name="broad_bed_furrow">Broad Bed Furrow</string>
+    <string name="furrow_irrigated_raised_bed_system">Furrow Irrigated Raised Bed System</string>
+    <string name="subsoiler">Subsoiler</string>
+    <string name="sweep_seed_drill">Sweep Seed Drill</string>
+    <string name="ridge_fertilizer_drill_cum_seed_planter">Ridge Fertilizer Drill Cum Seed Planter</string>
+    <string name="single_ridge_seed_planter">Single Ridge Seed Planter</string>
+    <string name="soybean_seed_drill_cum_planter">Soybean Seed Drill Cum Planter</string>
+    <string name="important_information">Important\nInformation</string>
+    <string name="recommended_sowing_time">Recommended Sowing Time</string>
+    <string name="seed_rate_spacing"><![CDATA[Seed Rate & Spacing]]></string>
+    <string name="recommended_soybean_varieties">Recommended Soybean Varieties</string>
+    <string name="tofu">Tofu</string>
+    <string name="bacterial_blight">Bacterial Blight</string>
+    <string name="bacterial_pustule">Bacterial Pustule</string>
+    <string name="charcol_rot">Charcol Rot</string>
+    <string name="collar_rot_sclerotial_blight">Collar Rot / Sclerotial Blight</string>
+    <string name="sclerotinia_stem_rot">Sclerotinia Stem Rot</string>
+    <string name="anthracnose_pod_blight"><![CDATA[Anthracnose & Pod Blight]]></string>
+    <string name="rust">Rust</string>
+    <string name="cercospora_blight">Cercospora Blight</string>
+    <string name="frogeye_leaf_spot">Frogeye Leaf Spot</string>
+    <string name="pod_stem_blight_phomopsis_seed_decay"><![CDATA[Pod & Stem Blight & Phomopsis Seed Decay]]></string>
+    <string name="fusarium_collar_pod_rot"><![CDATA[Fusarium Collar & Pod Rot]]></string>
+    <string name="myrothecium_leaf_spot">Myrothecium Leaf Spot</string>
+    <string name="root_rot_stem_rot_foliage_aerial_blight"><![CDATA[Root Rot, Stem Rot & Foliage/Aerial Blight]]></string>
+    <string name="brown_spot">Brown Spot</string>
+    <string name="phyllosticta_leaf_spot">Phyllosticta Leaf Spot</string>
+    <string name="choanephora_leaf_blight">Choanephora Leaf Blight</string>
+    <string name="aristastoma_leaf">Aristastoma Leaf</string>
+    <string name="powdery_mildew">Powdery Mildew</string>
+    <string name="target_leaf_spot">Target Leaf Spot</string>
+    <string name="soybean_mosaic">SoyBean Mosaic</string>
+    <string name="yellow_mosaic">Yellow Mosaic</string>
+    <string name="indian_bud_blight">Indian Bud Blight</string>
+    <string name="phyllody_associated_no_podding_syndrome">Phyllody Associated No Podding Syndrome</string>
+    <string name="bacterial_blightT">Bacterial Blight</string>
+    <string name="soil_requirementz">Soil Requirement</string>
+    <string name="tillagez">Tillage</string>
+    <string name="selection_of_varietiesz">Selection of Varieties</string>
+    <string name="seed_treatment_inoculationz"><![CDATA[Seed Treatment & Inoculation]]></string>
+    <string name="sowing_time_spacing_seed_ratez"><![CDATA[Sowing Time, Spacing & Seed Rate]]></string>
+    <string name="manures_fertilizersz"><![CDATA[Manures & Fertilizers]]></string>
+    <string name="intercropping_in_soybeanz">Intercropping in Soybean</string>
+    <string name="water_managementz">Water Management</string>
+    <string name="harvesting_threshingz"><![CDATA[Harvesting & Threshing]]></string>
+    <string name="bacterial_diseasesz">Bacterial Diseases</string>
+    <string name="fungal_diseasesz">Fungal Diseases</string>
+    <string name="viral_diseasesz">Viral Diseases</string>
+    <string name="bacterial_pustulez">Bacterial Pustule</string>
+    <string name="charcol_rotz">Charcol Rot</string>
+    <string name="collar_rot_sclerotial_blightz">Collar Rot / Sclerotial Blight</string>
+    <string name="sclerotinia_stem_rotz">Sclerotinia Stem Rot</string>
+    <string name="anthracnose_pod_blightz"><![CDATA[Anthracnose & Pod Blight]]></string>
+    <string name="rustz">Rust</string>
+    <string name="cercospora_blightz">Cercospora Blight</string>
+    <string name="frogeye_leaf_spotz">Frogeye Leaf Spot</string>
+    <string name="pod_stem_blight_phomopsis_seed_decayz"><![CDATA[Pod & Stem Blight & Phomopsis Seed Decay]]></string>
+    <string name="fusarium_collar_pod_rotz"><![CDATA[Fusarium Collar & Pod Rot]]></string>
+    <string name="myrothecium_leaf_spotz">Myrothecium Leaf Spot</string>
+    <string name="root_rot_stem_rot_foliage_aerial_blightz"><![CDATA[Root Rot, Stem Rot & Foliage/Aerial Blight]]></string>
+    <string name="brown_spotz">Brown Spot</string>
+    <string name="phyllosticta_leaf_spotz">Phyllosticta Leaf Spot</string>
+    <string name="choanephora_leaf_blightz">Choanephora Leaf Blight</string>
+    <string name="aristastoma_leafz">Aristastoma Leaf</string>
+    <string name="powdery_mildewz">Powdery Mildew</string>
+    <string name="target_leaf_spotz">Target Leaf Spot</string>
+    <string name="soybean_mosaicz">SoyBean Mosaic</string>
+    <string name="yellow_mosaicz">Yellow Mosaic</string>
+    <string name="indian_bud_blightz">Indian Bud Blight</string>
+    <string name="phyllody_associated_no_podding_syndromez">Phyllody Associated No Podding Syndrome</string>
+    <string name="district_wise_varieties_of_cz">District Wise Varieties of CZ</string>
+    <string name="district_wise_varieties_of_sz">District Wise Varieties of SZ</string>
+    <string name="district_wise_varieties_of_soybean">District Wise Varieties of Soybean</string>
+    <string name="varieties_with_special_character">Varieties With Special Character</string>
+    <string name="varieties_in_the_seed_chain">Varieties in the Seed Chain</string>
+    <string name="suggestions_selection_of_varieties">Suggestions (Selection of Varieties)</string>
+    <string name="district_wise_varieties_of_czz">District Wise Varieties of CZ</string>
+    <string name="district_wise_varieties_of_szz">District Wise Varieties of SZ</string>
+    <string name="district_wise_varieties_of_soybeanz">District Wise Varieties of Soybean</string>
+    <string name="varieties_in_the_seed_chainz">Varieties in the Seed Chain</string>
+    <string name="varieties_with_special_characterz">Varieties With Special Character</string>
+    <string name="suggestions_selection_of_varietiesz">Suggestions (Selection of Varieties)</string>
+    <string name="district_wise_varieties_of_czzz">District Wise Varieties of CZ</string>
+    <string name="district_wise_varieties_of_szzz">District Wise Varieties of SZ</string>
+    <string name="district_wise_varieties_of_soybeanzz">District Wise Varieties of Soybean</string>
+    <string name="varieties_in_the_seed_chainzz">Varieties in the Seed Chain</string>
+    <string name="varieties_with_special_characterzz">Varieties With Special Character</string>
+    <string name="good_practices">Good Practices</string>
+    <string name="insect_management_system">Insect Management System</string>
+    <string name="pre_disposing_factors">Pre Disposing Factors</string>
+    <string name="check_out_this_amazing_app">Check out this amazing app!</string>
+    <string name="share_via">Share via</string>
+    <string name="no_data_found">No data Found</string>
+    <string name="soil_requirementzz">Soil Requirement</string>
+    <string name="tillagezz">Tillage</string>
+    <string name="selection_of_varietieszz">Selection of Varieties</string>
+    <string name="suggestions_selection_of_varietieszz">Suggestions (Selection of Varieties)</string>
+    <string name="seed_treatment_inoculationzz"><![CDATA[Seed Treatment & Inoculation]]></string>
+    <string name="sowing_time_spacing_seed_ratezz"><![CDATA[Sowing Time, Spacing & Seed Rate]]></string>
+    <string name="manures_fertilizerszz"><![CDATA[Manures & Fertilizers]]></string>
+    <string name="intercropping_in_soybeanzz">Intercropping in Soybean</string>
+    <string name="water_managementzz">Water Management</string>
+    <string name="harvesting_threshingzz"><![CDATA[Harvesting & Threshing]]></string>
+    <string name="crop_managementz">फसल प्रबंधन</string>
+    <string name="insect_managementz">कीट प्रबंधन</string>
+    <string name="brown_stripped_semilooperzz">Brown Stripped Semilooper</string>
+    <string name="white_grubz">White Grub</string>
+    <string name="white_flyz">White Fly</string>
+    <string name="tobacco_caterpillarz">Tobacco Caterpillar</string>
+    <string name="stem_flyz">Stem Fly</string>
+    <string name="leaf_minerz">Leaf Miner</string>
+    <string name="leaf_folderz">Leaf Folder</string>
+    <string name="green_stink_bugz">Green Stink Bug</string>
+    <string name="green_semiloopersz">Green Semiloopers</string>
+    <string name="gram_pod_borerz">Gram Pod Borer</string>
+    <string name="girdle_beetlez">Girdle Beetle</string>
+    <string name="bihar_hairy_caterpillarz">Bihar Hairy Caterpillar</string>
+    <string name="blue_beetlez">Blue Beetle</string>
+    <string name="bacterial_diseaseszz">Bacterial Diseases</string>
+    <string name="fungal_diseaseszz">Fungal Diseases</string>
+    <string name="viral_diseaseszz">Viral Diseases</string>
+    <string name="disease_managementzz">रोग प्रबंधन</string>
+    <string name="losses_due_to_weedz">Losses Due to Weed</string>
+    <string name="types_of_weedz">Types of Weed</string>
+    <string name="weed_management_practicesz">Weed Management Practices</string>
+    <string name="recommended_herbicidesz">Recommended Herbicides</string>
+    <string name="general_precautionsz">General Precautions</string>
+    <string name="weed_managementz">खरपतवार प्रबंधन</string>
+    <string name="soy_nutsz">Soy Nuts</string>
+    <string name="soy_milkz">Soy Milk</string>
+    <string name="soy_curdz">Soy Curd</string>
+    <string name="tofuz">Tofu</string>
+    <string name="soy_flourz">Soy Flour</string>
+    <string name="soy_chakliz">Soy Chakli</string>
+    <string name="soy_mathariz">Soy Mathari</string>
+    <string name="soy_laddoz">Soy Laddo</string>
+    <string name="soy_nankhataiz">Soy Nankhatai</string>
+    <string name="soy_upmaz">Soy Upma</string>
+    <string name="soy_halwaz">Soy Halwa</string>
+    <string name="soy_pakoraz">Soy Pakora</string>
+    <string name="soyfood_recipez">स्वास्थ्य लाभ एवं घरेलु उपयोग</string>
+    <string name="broad_bed_furrowz">Broad Bed Furrow</string>
+    <string name="furrow_irrigated_raised_bed_systemz">Furrow Irrigated Raised Bed System</string>
+    <string name="subsoilerz">Subsoiler</string>
+    <string name="sweep_seed_drillz">Sweep Seed Drill</string>
+    <string name="ridge_fertilizer_drill_cum_seed_planterz">Ridge Fertilizer Drill Cum Seed Planter</string>
+    <string name="single_ridge_seed_planterz">Single Ridge Seed Planter</string>
+    <string name="soybean_seed_drill_cum_planterz">Soybean Seed Drill Cum Planter</string>
+    <string name="farm_machineryz">Farm\nMachinery</string>
+    <string name="recommended_sowing_timez">Recommended Sowing Time</string>
+    <string name="seed_rate_spacingz"><![CDATA[Seed Rate & Spacing]]></string>
+    <string name="recommended_soybean_varietiesz">Recommended Soybean Varieties</string>
+    <string name="important_informationz">महत्वपूर्ण जानकारी</string>
+    <string name="soy_nutsx">Soy Nuts</string>
+    <string name="soy_milkx">Soy Milk</string>
+    <string name="soy_curdx">Soy Curd</string>
+    <string name="tofux">Tofu</string>
+    <string name="soy_flourx">Soy Flour</string>
+    <string name="soy_chaklix">Soy Chakli</string>
+    <string name="soy_matharix">Soy Mathari</string>
+    <string name="soy_laddox">Soy Laddo</string>
+    <string name="soy_nankhataix">Soy Nankhatai</string>
+    <string name="soy_upmax">Soy Upma</string>
+    <string name="soy_halwax">Soy Halwa</string>
+    <string name="soy_pakorax">Soy Pakora</string>
+    <string name="commelina_benghalensis_bokna">Commelina Benghalensis (Bokna)</string>
+    <string name="cyperus_rotundus_motha">Cyperus Rotundus (Motha)</string>
+    <string name="cyanotis_axillaris_diwalia">Cyanotis Axillaris (Diwalia)</string>
+    <string name="digera_arvensis_phoolni">Digera Arvensis (Phoolni)</string>
+    <string name="echinochloa_cru_sgalli_sanwa">Echinochloa Cru-Sgalli (Sanwa)</string>
+    <string name="euphorbia_geniculata_dudhi">Euphorbia Geniculata (Dudhi)</string>
+    <string name="losses_due_to_weedx">Losses Due to Weed</string>
+    <string name="weed_management_practicesx">Weed Management Practices</string>
+    <string name="general_precautionsx">General Precautions</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="symptom">SYMPTOM</string>
+    <string name="management">MANAGEMENT</string>
+    <string name="bacterial_blightx">Bacterial Blight</string>
+    <string name="bacterial_pustulex">Bacterial Pustule</string>
+    <string name="charcol_rotx">Charcol Rot</string>
+    <string name="collar_rot_sclerotial_blightx">Collar Rot / Sclerotial Blight</string>
+    <string name="sclerotinia_stem_rotx">Sclerotinia Stem Rot</string>
+    <string name="anthracnose_pod_blightx"><![CDATA[Anthracnose & Pod Blight]]></string>
+    <string name="rustx">Rust</string>
+    <string name="cercospora_blightx">Cercospora Blight</string>
+    <string name="frogeye_leaf_spotx">Frogeye Leaf Spot</string>
+    <string name="pod_stem_blight_phomopsis_seed_decayx"><![CDATA[Pod & Stem Blight & Phomopsis Seed Decay]]></string>
+    <string name="fusarium_collar_pod_rotx"><![CDATA[Fusarium Collar & Pod Rot]]></string>
+    <string name="myrothecium_leaf_spotx">Myrothecium Leaf Spot</string>
+    <string name="root_rot_stem_rot_foliage_aerial_blightx"><![CDATA[Root Rot, Stem Rot & Foliage/Aerial Blight]]></string>
+    <string name="brown_spotx">Brown Spot</string>
+    <string name="phyllosticta_leaf_spotx">Phyllosticta Leaf Spot</string>
+    <string name="choanephora_leaf_blightx">Choanephora Leaf Blight</string>
+    <string name="aristastoma_leafx">Aristastoma Leaf</string>
+    <string name="powdery_mildewx">Powdery Mildew</string>
+    <string name="target_leaf_spotx">Target Leaf Spot</string>
+    <string name="soybean_mosaicx">Soybean Mosaic</string>
+    <string name="yellow_mosaicx">Yellow Mosaic</string>
+    <string name="indian_bud_blightx">Indian Bud Blight</string>
+    <string name="phyllody_associated_no_podding_syndromex">Phyllody Associated No Podding Syndrome</string>
+    <string name="features">FEATURES</string>
+    <string name="cost">COST</string>
+    <string name="procurement">PROCUREMENT</string>
+    <string name="broad_bed_furrowx">Broad Bed Furrow</string>
+    <string name="furrow_irxrigated_raised_bed_systemx">Furrow Irxrigated Raised Bed System</string>
+    <string name="subsoilerx">Subsoiler</string>
+    <string name="sweep_seed_drillx">Sweep Seed Drill</string>
+    <string name="ridge_fertilizer_drill_cum_seed_planterx">Ridge Fertilizer Drill Cum Seed Planter</string>
+    <string name="single_ridge_seed_planterx">Single Ridge Seed Planter</string>
+    <string name="soybean_seed_drill_cum_planterx">Soybean Seed Drill Cum Planter</string>
+    <string name="identification">IDENTIFICATION</string>
+    <string name="damage">DAMAGE</string>
+    <string name="managementx">MANAGEMENT</string>
+    <string name="blue_beetlex">Blue Beetle</string>
+    <string name="bihar_hairy_caterpillarx">Bihar Hairy Caterpillar</string>
+    <string name="girdle_beetlex">Girdle Beetle</string>
+    <string name="gram_pod_borerx">Gram Pod Borer</string>
+    <string name="green_semiloopersx">Green Semiloopers</string>
+    <string name="green_stink_bugx">Green Stink Bug</string>
+    <string name="leaf_folderx">Leaf Folder</string>
+    <string name="leaf_minerx">Leaf Miner</string>
+    <string name="stem_flyx">Stem Fly</string>
+    <string name="tobacco_caterpillarx">Tobacco Caterpillar</string>
+    <string name="white_flyx">White Fly</string>
+    <string name="white_grubx">White Grub</string>
+    <string name="brown_stripped_semilooperx">Brown Stripped Semilooper</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="nsoybean_gyan_contains_the_following_aspects">\nSoybean Gyan contains the following aspects:</string>
+    <string name="crop_management_extension_bulletin_13_edition_2016_n_ninsect_management_extension_bulletin_13_edition_2016_n_nweed_management_extension_bulletin_13_edition_2016_n_ndisease_management_extension_bulletin_13_edition_2016_n_nfarm_machinery_extension_bulletin_13_edition_2016_n_nfor_more_information_visit_soybean_gyan_n_nsoy_food_recipe_soy_food_recipe_n_ncopyright_icar_indian_institute">Crop Management Extension Bulletin-13 Edition-2016 \n\nInsect Management Extension Bulletin-13 Edition-2016 \n\nWeed Management Extension Bulletin-13 Edition-2016 \n\nDisease Management Extension Bulletin-13 Edition-2016 \n\nFarm Machinery Extension Bulletin-13 Edition-2016 \n\nFor more information, visit: Soybean Gyan \n\nSoy Food Recipe: Soy Food Recipe \n\nCopyright © ICAR-Indian Institute</string>
+    <string name="icar_indian_institute_of_soybean_research">\nICAR-Indian Institute of Soybean Research</string>
+    <string name="khandwa_road_indore_m_p_452001">Khandwa Road, Indore (M.P.) - 452001</string>
+    <string name="phone_dr_v_s_bhatia_director_0731_2476188_dr_a_n_sharma_insect_management_9425958694_dr_sunil_dutt_billore_weed_management_9977763727_dr_b_u_dupare_crop_management_9425964016_dr_d_v_singh_farm_machinery_0731_2437922_dr_m_k_kuchlan_seed_and_variety_9340650457_dr_sanjeev_kumar_disease_management_9407072727_dr_laxman_singh_rajput_disease_management_7065157572_for_app_related_information_contact_dr_savita_kolhe_principal_scientist_0731_2437911_email_soybean_director_icar_gov_in_srdirector_gmail_com_fax_0731_2470520">Phone: \n\nDr. V.S. Bhatia, Director - 0731-2476188 \n\nDr. A.N. Sharma (Insect Management) - 9425958694 \n\nDr. Sunil Dutt Billore (Weed Management) - 9977763727 \n\nDr. B.U. Dupare (Crop Management) - 9425964016 \n\nDr. D.V. Singh (Farm Machinery) - 0731-2437922 \n\nDr. M.K. Kuchlan (Seed and Variety) - 9340650457 \n\nDr. Sanjeev Kumar (Disease Management) - 9407072727 \n\nDr. Laxman Singh Rajput (Disease Management) - 7065157572 \n\nFor App Related Information Contact: \n\nDr. Savita Kolhe, Principal Scientist - 0731-2437911 \n\n\nEmail: soybean.director@icar.gov.in \n srdirector@gmail.com \n\n\nFax: 0731-2470520</string>
+    <string name="scan_leaf_to_diagnose">Scan leaf to diagnose</string>
+    <string name="soybean_plant">Soybean Plant</string>
+    <string name="scan_soybean_leaf_to_identify_potential_disease_the_soybean_plant_is_suffering_n_nget_cure_by_icar_s_authentic_and_highly_accurate_machine_learning_model">Scan Soybean Leaf, to identify potential disease the Soybean plant is suffering.\n\nGet cure by ICAR\'s authentic and highly accurate Machine Learning Model.</string>
+    <string name="tap_camera_to_scan">TAP CAMERA TO SCAN</string>
+    <string name="start_reading">Start Reading</string>
+    <string name="search_soybean_gyan">Search Soybean Gyan..</string>
+    <string name="language">Language</string>
+    <string name="languagez">Language</string>
+    <string name="welcome_to_icar_s">welcome to ICAR\'s</string>
+    <string name="soybean_gyan">Soybean Gyan</string>
+    <string name="one_stop_solution">one stop solution</string>
+    <string name="explore_soybean_gyan">Explore Soybean Gyan</string>
+    <string name="important_links">IMPORTANT LINKS</string>
+    <string name="practices">Practices</string>
+    <string name="advisory">ADVISORY</string>
+    <string name="inscect_nmanagement">Inscect\nManagement</string>
+    <string name="pre_ndisposing">Pre\nDisposing</string>
+    <string name="more">MORE</string>
+    <string name="about_app">About App</string>
+    <string name="contact">Contact</string>
+    <string name="share_app">Share App</string>
+    <string name="scan_leaf_to_diagnosex">Scan leaf to diagnose</string>
+    <string name="soybean_plantx">Soybean Plant</string>
+    <string name="scan_soybean_leaf_to_identify_potential_disease_the_soybean_plant_is_suffering_n_nget_cure_by_our_accurate_machine_learning_modelx">Scan Soybean Leaf, to identify potential disease the Soybean plant is suffering.\n\nGet cure by our accurate Machine Learning Model.</string>
+    <string name="leaf_disease_predictionx">Leaf Disease Prediction</string>
+    <string name="app_settings">App Settings</string>
+    <string name="font_size">Font Size</string>
+    <string name="detection">Detection</string>
+    <string name="morex">More</string>
+
+</resources>

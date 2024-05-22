@@ -38,9 +38,9 @@ class FarmMachineryActivityForFragments : AppCompatActivity() {
 
         TabLayoutMediator(tabLayout, viewPager2) { tab, position ->
             tab.text = when (position) {
-                0 -> "FEATURES"
-                1 -> "COST"
-                2 -> "PROCUREMENT"
+                0 -> getString(R.string.features)
+                1 -> getString(R.string.cost)
+                2 -> getString(R.string.procurement)
                 else -> null
             }
         }.attach()
@@ -78,37 +78,37 @@ class FarmMachineryActivityForFragments : AppCompatActivity() {
     }
     private fun updateDetails(title: String?) {
         val fragments = when (title) {
-            "Broad Bed Furrow" -> listOf(
+            getString(R.string.broad_bed_furrowx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.BedFurrow1)),
                 SecondFragment.newInstance(getString(R.string.BedFurrow2)),
                 ThirdFragment.newInstance(getString(R.string.BedFurrow3))
             )
-            "Furrow Irrigated Raised Bed System" -> listOf(
+            getString(R.string.furrow_irxrigated_raised_bed_systemx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.FurrowIrrigated1)),
                 SecondFragment.newInstance(getString(R.string.FurrowIrrigated2)),
                 ThirdFragment.newInstance(getString(R.string.FurrowIrrigated3))
             )
-            "Subsoiler" -> listOf(
+            getString(R.string.subsoilerx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.Subsoiler1)),
                 SecondFragment.newInstance(getString(R.string.Subsoiler2)),
                 ThirdFragment.newInstance(getString(R.string.Subsoiler3))
             )
-            "Sweep Seed Drill" -> listOf(
+            getString(R.string.sweep_seed_drillx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.SeedDrill1)),
                 SecondFragment.newInstance(getString(R.string.SeedDrill2)),
                 ThirdFragment.newInstance(getString(R.string.SeedDrill3))
             )
-            "Ridge Fertilizer Drill Cum Seed Planter" -> listOf(
+            getString(R.string.ridge_fertilizer_drill_cum_seed_planterx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.RidgeFertilizer1)),
                 SecondFragment.newInstance(getString(R.string.RidgeFertilizer2)),
                 ThirdFragment.newInstance(getString(R.string.RidgeFertilizer3))
             )
-            "Single Ridge Seed Planter" -> listOf(
+            getString(R.string.single_ridge_seed_planterx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.SingleRidge1)),
                 SecondFragment.newInstance(getString(R.string.SingleRidge2)),
                 ThirdFragment.newInstance(getString(R.string.SingleRidge3))
             )
-            "Soybean Seed Drill Cum Planter" -> listOf(
+            getString(R.string.soybean_seed_drill_cum_planterx) -> listOf(
                 FirstFragment.newInstance( getString(R.string.SoybeanSeedDrill1)),
                 SecondFragment.newInstance(getString(R.string.SoybeanSeedDrill2)),
                 ThirdFragment.newInstance(getString(R.string.SoybeanSeedDrill3))

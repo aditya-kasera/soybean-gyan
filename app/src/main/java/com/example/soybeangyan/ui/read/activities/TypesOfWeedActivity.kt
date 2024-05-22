@@ -36,12 +36,16 @@ class TypesOfWeedActivity : AppCompatActivity() {
     private fun prepareData() {
 
         content = ArrayList()
-        content.add(TypesOfWeedData(R.drawable.weedmgmt, "Commelina Benghalensis (Bokna)"))
-        content.add(TypesOfWeedData(R.drawable.diwalia, "Cyanotis Axillaris (Diwalia)"))
-        content.add(TypesOfWeedData(R.drawable.motha, "Cyperus Rotundus (Motha)"))
-        content.add(TypesOfWeedData(R.drawable.phoolni, "Digera Arvensis (Phoolni)"))
-        content.add(TypesOfWeedData(R.drawable.sanwa, "Echinochloa Cru-Sgalli (Sanwa)"))
-        content.add(TypesOfWeedData(R.drawable.euphorbia_geniculata, "Euphorbia Geniculata (Dudhi)"))
+        content.add(TypesOfWeedData(R.drawable.weedmgmt,
+            getString(R.string.commelina_benghalensis_bokna)))
+        content.add(TypesOfWeedData(R.drawable.diwalia,
+            getString(R.string.cyanotis_axillaris_diwalia)))
+        content.add(TypesOfWeedData(R.drawable.motha, getString(R.string.cyperus_rotundus_motha)))
+        content.add(TypesOfWeedData(R.drawable.phoolni, getString(R.string.digera_arvensis_phoolni)))
+        content.add(TypesOfWeedData(R.drawable.sanwa,
+            getString(R.string.echinochloa_cru_sgalli_sanwa)))
+        content.add(TypesOfWeedData(R.drawable.euphorbia_geniculata,
+            getString(R.string.euphorbia_geniculata_dudhi)))
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {

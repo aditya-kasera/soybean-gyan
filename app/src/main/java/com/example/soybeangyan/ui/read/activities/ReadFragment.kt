@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.soybeangyan.R
 import com.example.soybeangyan.databinding.FragmentReadBinding
 import com.example.soybeangyan.pages.AboutAppActivity
 import com.example.soybeangyan.pages.AdviceActivity
@@ -37,7 +38,7 @@ class ReadFragment : Fragment() {
 //        Opening Important links
 
         binding.ibQuickAccess1.setOnClickListener {
-            openImportantLinksActivity("Good Practices","https://iisrindore.icar.gov.in/goodagripractices.html")
+            openImportantLinksActivity(getString(R.string.good_practices),"https://iisrindore.icar.gov.in/goodagripractices.html")
         }
 
 //        binding.ibQuickAccess2.setOnClickListener {
@@ -49,11 +50,11 @@ class ReadFragment : Fragment() {
         }
 
         binding.ibQuickAccess3.setOnClickListener {
-            openImportantLinksActivity("Insect Management System","http://14.139.54.71/DSSIPM/MainHomePage.htm")
+            openImportantLinksActivity(getString(R.string.insect_management_system),"http://14.139.54.71/DSSIPM/MainHomePage.htm")
         }
 
         binding.ibQuickAccess4.setOnClickListener {
-            openImportantLinksActivity("Pre Disposing Factors","http://14.139.54.71/DSSIPM/Prediscond.htm")
+            openImportantLinksActivity(getString(R.string.pre_disposing_factors),"http://14.139.54.71/DSSIPM/Prediscond.htm")
         }
         binding.ibQuickAccess6.setOnClickListener {
             val intent = Intent(requireContext(), AboutAppActivity::class.java)
@@ -67,9 +68,9 @@ class ReadFragment : Fragment() {
         binding.btnShare.setOnClickListener {
             val shareIntent = Intent(Intent.ACTION_SEND)
             shareIntent.type = "text/plain"
-            val shareMessage = "Check out this amazing app!"
+            val shareMessage = getString(R.string.check_out_this_amazing_app)
             shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage)
-            startActivity(Intent.createChooser(shareIntent, "Share via"))
+            startActivity(Intent.createChooser(shareIntent, getString(R.string.share_via)))
         }
 
 //        binding.btnShare.setOnClickListener {

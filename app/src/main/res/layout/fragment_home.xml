@@ -50,7 +50,7 @@
             android:layout_alignParentStart="true"
             android:layout_margin="5dp"
             android:fontFamily="serif-monospace"
-            android:text="welcome to ICAR's"
+            android:text="@string/welcome_to_icar_s"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/textView7"
             android:fontFamily="sans-serif-black"
-            android:text="Soybean Gyan"
+            android:text="@string/soybean_gyan"
             android:textSize="50sp"
             android:textStyle="bold" />
 
@@ -71,7 +71,7 @@
             android:layout_below="@id/textView6"
             android:layout_margin="10dp"
             android:fontFamily="monospace"
-            android:text="one stop solution"
+            android:text="@string/one_stop_solution"
             android:textSize="20sp"
             android:textStyle="bold" />
     </RelativeLayout>
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20px"
                 android:layout_toEndOf="@+id/imgSmart"
-                android:text="Explore Soybean Gyan  "
+                android:text="@string/explore_soybean_gyan"
                 android:textColor="?attr/colorPrimaryVariant"
                 android:textSize="20dp"
                 android:textStyle="bold"
